@@ -1,0 +1,9 @@
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\bin\Debug\ProgramingLanguageEnviroment.exe.config
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\bin\Debug\ProgramingLanguageEnviroment.exe
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\bin\Debug\ProgramingLanguageEnviroment.pdb
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csprojAssemblyReference.cache
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.Properties.Resources.resources
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csproj.GenerateResource.cache
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.exe
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.pdb
