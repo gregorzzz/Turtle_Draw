@@ -12,9 +12,9 @@ namespace ProgramingLanguageEnviroment
 {
     public partial class Form1 : Form
     {
-       
+        private String[] commandList;
         Bitmap OutputBitmap = new Bitmap(640, 480);
-        Canvas MyCanvas;
+        private Canvas MyCanvas;
         public Form1()
         {
             InitializeComponent();
@@ -26,16 +26,18 @@ namespace ProgramingLanguageEnviroment
         {
             if (e.KeyCode == Keys.Enter)
             {
-                String Command = command_line.Text.Trim().ToLower();
-                if (Command.Equals("line") == true)
+                String command = command_line.Text.Trim().ToLower();
+                commandList = command.Split(' ');
+                //Console.WriteLine(commandList[0]+ commandList[1]);
+                if (command.Equals("line") == true)
                 {
                     MyCanvas.DrawLine(160, 120);
                 }
-                else if (Command.Equals("square") == true)
+                else if (commandList[0].Equals("square") == true)
                 {
-                    MyCanvas.DrawSquare(25);
+                    MyCanvas.DrawSquare(Int32.Parse(commandList[1]));
                 }
-                else if (Command.Equals("circle") == true)
+                else if (command.Equals("circle") == true)
                 {
                     MyCanvas.DrawCircle(50);
                 }

@@ -7,7 +7,6 @@ namespace ProgramingLanguageEnviroment
         private Graphics g;
         private Pen Pen;
         private int xPos, yPos;
-        private int xCenter, yCenter;
         public Canvas(Graphics g)
         {
             this.g = g;

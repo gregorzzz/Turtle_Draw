@@ -28,9 +28,6 @@
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
@@ -46,8 +43,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +97,7 @@
       <workItem from="1603044950783" duration="1034000" />
       <workItem from="1603046163895" duration="4095000" />
       <workItem from="1603064223081" duration="2481000" />
-      <workItem from="1603113274414" duration="3811000" />
+      <workItem from="1603113274414" duration="7054000" />
     </task>
     <servers />
   </component>
@@ -126,22 +123,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="146" key="GridCell.Tab.0.bottom" timestamp="1603120014904">
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom" timestamp="1603123169685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="146" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603120014904" />
-    <state width="1877" height="146" key="GridCell.Tab.0.center" timestamp="1603120014904">
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603123169685" />
+    <state width="1877" height="224" key="GridCell.Tab.0.center" timestamp="1603123169685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="146" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603120014904" />
-    <state width="1877" height="146" key="GridCell.Tab.0.left" timestamp="1603120014904">
+    <state width="1877" height="224" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603123169685" />
+    <state width="1877" height="224" key="GridCell.Tab.0.left" timestamp="1603123169684">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="146" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603120014904" />
-    <state width="1877" height="146" key="GridCell.Tab.0.right" timestamp="1603120014904">
+    <state width="1877" height="224" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603123169684" />
+    <state width="1877" height="224" key="GridCell.Tab.0.right" timestamp="1603123169685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="146" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603120014904" />
+    <state width="1877" height="224" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603123169685" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1603116110716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -150,9 +147,13 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="590" y="199" key="ToolboxManager/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603049862615" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603065414928">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1603121051386">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603065414928" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603121051386" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603121235494">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603121235494" />
   </component>
 </project>
