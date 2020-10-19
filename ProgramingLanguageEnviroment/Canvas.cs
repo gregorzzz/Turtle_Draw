@@ -30,5 +30,11 @@ namespace ProgramingLanguageEnviroment
         {
             g.DrawEllipse(Pen, xPos , yPos, radius + radius, radius + radius);
         }
+
+        public void moveTo(int toX, int toY)
+        {
+            xPos = toX;
+            yPos = toY;
+        }
     }
 }

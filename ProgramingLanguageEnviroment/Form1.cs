@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,6 +42,11 @@ namespace ProgramingLanguageEnviroment
                 {
                     MyCanvas.DrawCircle(Int32.Parse(commandList[1]));
                 }
+                else if (commandList[0].Equals("move") == true)
+                {
+                    MyCanvas.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    
+                }
                 Refresh();
             }
             
@@ -52,6 +58,9 @@ namespace ProgramingLanguageEnviroment
             Graphics g = e.Graphics;
             g.DrawImageUnscaled(OutputBitmap,0,0);
         }
+
+
+        
     }
     
 }
