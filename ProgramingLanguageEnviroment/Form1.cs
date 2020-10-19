@@ -47,6 +47,7 @@ namespace ProgramingLanguageEnviroment
                     MyCanvas.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     
                 }
+              
                 Refresh();
             }
             
