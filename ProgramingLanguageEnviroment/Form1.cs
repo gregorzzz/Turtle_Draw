@@ -29,17 +29,17 @@ namespace ProgramingLanguageEnviroment
                 String command = command_line.Text.Trim().ToLower();
                 commandList = command.Split(' ');
                 //Console.WriteLine(commandList[0]+ commandList[1]);
-                if (command.Equals("line") == true)
+                if (commandList[0].Equals("line") == true)
                 {
-                    MyCanvas.DrawLine(160, 120);
+                    MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                 }
                 else if (commandList[0].Equals("square") == true)
                 {
                     MyCanvas.DrawSquare(Int32.Parse(commandList[1]));
                 }
-                else if (command.Equals("circle") == true)
+                else if (commandList[0].Equals("circle") == true)
                 {
-                    MyCanvas.DrawCircle(50);
+                    MyCanvas.DrawCircle(Int32.Parse(commandList[1]));
                 }
                 Refresh();
             }
