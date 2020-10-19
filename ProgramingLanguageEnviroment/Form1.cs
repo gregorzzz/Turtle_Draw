@@ -35,9 +35,14 @@ namespace ProgramingLanguageEnviroment
                 {
                     MyCanvas.DrawSquare(25);
                 }
+                else if (Command.Equals("circle") == true)
+                {
+                    MyCanvas.DrawCircle(50);
+                }
                 Refresh();
             }
-            throw new System.NotImplementedException();
+            
+
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)

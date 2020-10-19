@@ -7,3 +7,4 @@ C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnvi
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.exe
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.pdb
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.Form1.resources

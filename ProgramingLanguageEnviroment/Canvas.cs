@@ -7,6 +7,7 @@ namespace ProgramingLanguageEnviroment
         private Graphics g;
         private Pen Pen;
         private int xPos, yPos;
+        private int xCenter, yCenter;
         public Canvas(Graphics g)
         {
             this.g = g;
@@ -24,6 +25,11 @@ namespace ProgramingLanguageEnviroment
         public void DrawSquare(int width)
         {
             g.DrawRectangle(Pen, xPos, yPos, xPos +width, yPos +width);
+        }
+
+        public void DrawCircle(float radius)
+        {
+            g.DrawEllipse(Pen, xPos , yPos, radius + radius, radius + radius);
         }
     }
 }
