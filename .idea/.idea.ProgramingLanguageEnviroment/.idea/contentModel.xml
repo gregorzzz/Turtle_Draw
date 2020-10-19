@@ -8,8 +8,10 @@
       <e p="ProgramingLanguageEnviroment" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Canvas.cs" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="ProgramingLanguageEnviroment.csproj" t="IncludeRecursive" />
