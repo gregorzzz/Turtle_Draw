@@ -24,7 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
@@ -42,9 +42,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +98,8 @@
       <workItem from="1603046163895" duration="4095000" />
       <workItem from="1603064223081" duration="2481000" />
       <workItem from="1603113274414" duration="13688000" />
-      <workItem from="1603146342923" duration="2075000" />
+      <workItem from="1603146342923" duration="3232000" />
+      <workItem from="1603215490378" duration="4576000" />
     </task>
     <servers />
   </component>
@@ -124,26 +125,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="224" key="GridCell.Tab.0.bottom" timestamp="1603132103657">
+    <state width="1875" height="222" key="GridCell.Tab.0.bottom" timestamp="1603223284826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603132103657" />
-    <state width="1877" height="224" key="GridCell.Tab.0.center" timestamp="1603132103657">
+    <state width="1875" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603223284826" />
+    <state width="1875" height="222" key="GridCell.Tab.0.center" timestamp="1603223284826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="224" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603132103657" />
-    <state width="1877" height="224" key="GridCell.Tab.0.left" timestamp="1603132103657">
+    <state width="1875" height="222" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603223284826" />
+    <state width="1875" height="222" key="GridCell.Tab.0.left" timestamp="1603223284826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="224" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603132103657" />
-    <state width="1877" height="224" key="GridCell.Tab.0.right" timestamp="1603132103657">
+    <state width="1875" height="222" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603223284826" />
+    <state width="1875" height="222" key="GridCell.Tab.0.right" timestamp="1603223284826">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="224" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603132103657" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1603116110716">
+    <state width="1875" height="222" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603223284826" />
+    <state x="461" y="185" key="SettingsEditor" timestamp="1603149577854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603116110716" />
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603149577854" />
     <state x="590" y="199" key="ToolboxManager" timestamp="1603049862615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -29,7 +29,6 @@ namespace ProgramingLanguageEnviroment
             {
                 String command = command_line.Text.Trim().ToLower();
                 commandList = command.Split(' ');
-                //Console.WriteLine(commandList[0]+ commandList[1]);
                 if (commandList[0].Equals("line") == true)
                 {
                     MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
@@ -45,7 +44,10 @@ namespace ProgramingLanguageEnviroment
                 else if (commandList[0].Equals("move") == true)
                 {
                     MyCanvas.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                    
+                }
+                else if (commandList[0].Equals("triangle") == true)
+                {
+                    MyCanvas.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
                 }
               
                 Refresh();
