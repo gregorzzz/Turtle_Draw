@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 
 namespace ProgramingLanguageEnviroment
@@ -57,5 +58,10 @@ namespace ProgramingLanguageEnviroment
             yPos = toY;
         }
         
+        public void ResetPen(int toX, int toY)
+        {
+            xPos = toX;
+            yPos = toY;
+        }
     }
 }

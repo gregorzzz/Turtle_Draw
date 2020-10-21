@@ -49,7 +49,17 @@ namespace ProgramingLanguageEnviroment
                 {
                     MyCanvas.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
                 }
-              
+                else if (commandList[0].Equals("clear") == true)
+                {
+                    ClearImage();
+                    canvas.Refresh();
+                }
+                else if(commandList[0].Equals("reset") == true)
+                {
+                    ResetPos();
+                    canvas.Refresh();
+                }
+                
                 Refresh();
             }
             
@@ -62,7 +72,18 @@ namespace ProgramingLanguageEnviroment
             g.DrawImageUnscaled(OutputBitmap,0,0);
         }
 
+        public void ClearImage()
+        {
+            Graphics myGraphics = Graphics.FromImage(OutputBitmap);
+            myGraphics.Clear(Color.White);
+            
+        }
 
+        public void ResetPos()
+        {
+            MyCanvas.ResetPen(0, 0);
+          
+        }
         
     }
     
