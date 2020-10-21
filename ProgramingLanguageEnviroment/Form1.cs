@@ -63,6 +63,14 @@ namespace ProgramingLanguageEnviroment
                 {
                     MyCanvas.PenColor(commandList[1]);
                 }
+                else if (commandList[0].Equals("fill on"))
+                {
+                    MyCanvas.filll(true);
+                }
+                else if (commandList[0].Equals("fill off"))
+                {
+                    MyCanvas.filll(false);
+                }
                 
                 Refresh();
             }
