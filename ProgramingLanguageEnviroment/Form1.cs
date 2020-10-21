@@ -59,6 +59,10 @@ namespace ProgramingLanguageEnviroment
                     ResetPos();
                     canvas.Refresh();
                 }
+                else if (commandList[0].Equals("pen") == true)
+                {
+                    MyCanvas.PenColor(commandList[1]);
+                }
                 
                 Refresh();
             }

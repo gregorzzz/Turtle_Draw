@@ -26,10 +26,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,7 @@
       <workItem from="1603146342923" duration="3232000" />
       <workItem from="1603215490378" duration="5485000" />
       <workItem from="1603229932013" duration="2664000" />
-      <workItem from="1603284043208" duration="5956000" />
+      <workItem from="1603284043208" duration="12347000" />
     </task>
     <servers />
   </component>
@@ -127,22 +123,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1603290401544">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1603291269002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603290401544" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1603290401544">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603291269002" />
+    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1603291269002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603290401544" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1603290401544">
+    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603291269002" />
+    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1603291269002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603290401544" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1603290401544">
+    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603291269002" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1603291269002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603290401544" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603291269002" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1603149577854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
