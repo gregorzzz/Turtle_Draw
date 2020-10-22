@@ -42,8 +42,8 @@
       <list>
         <option value="$PROJECT_DIR$/Form Test/Tests.cs" />
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
       </list>
     </option>
@@ -105,7 +105,7 @@
       <workItem from="1603307233203" duration="1022000" />
       <workItem from="1603369541407" duration="12740000" />
       <workItem from="1603392848385" duration="2210000" />
-      <workItem from="1603396095275" duration="5356000" />
+      <workItem from="1603396095275" duration="6516000" />
     </task>
     <servers />
   </component>
@@ -135,25 +135,25 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="94" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603393841540" />
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603401162590">
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603402218158">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603401162590" />
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
     <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603401162589">
+    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603402218158">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603401162589" />
+    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
     <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603401162589">
+    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603402218158">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603401162589" />
+    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
     <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603401162589">
+    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603402218158">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603401162589" />
+    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
     <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1603374631669">
       <screen x="0" y="0" width="1920" height="1080" />

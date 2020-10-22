@@ -76,6 +76,10 @@ namespace ProgramingLanguageEnviroment
                 {
                     SaveFiles();
                 }
+                else if (commandList[0].Equals("load"))
+                {
+                    LoadFiles();
+                }
                 
                 Refresh();
             }
@@ -114,6 +118,20 @@ namespace ProgramingLanguageEnviroment
                 saveFileBox.FileName.Length > 0)
             {
                 inputBox.SaveFile(saveFileBox.FileName, RichTextBoxStreamType.PlainText);
+            }
+        }
+
+        public void LoadFiles()
+        {
+            OpenFileDialog loadFileBox = new OpenFileDialog();
+
+            loadFileBox.DefaultExt = "*.txt";
+            loadFileBox.Filter = "Text Document|*.txt";
+
+            if (loadFileBox.ShowDialog() == System.Windows.Forms.DialogResult.OK &&
+                loadFileBox.FileName.Length > 0)
+            {
+                inputBox.LoadFile(loadFileBox.FileName, RichTextBoxStreamType.PlainText);
             }
         }
         
