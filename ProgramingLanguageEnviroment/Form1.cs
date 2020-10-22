@@ -30,7 +30,11 @@ namespace ProgramingLanguageEnviroment
             {
                 String command = command_line.Text.Trim().ToLower();
                 commandList = command.Split(' ');
-                if (commandList[0].Equals("line") == true)
+                if (!commandList[0].Contains(command))
+                {
+                    
+                }
+                else if (commandList[0].Equals("line") == true)
                 {
                     MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                 }
@@ -134,6 +138,7 @@ namespace ProgramingLanguageEnviroment
                 inputBox.LoadFile(loadFileBox.FileName, RichTextBoxStreamType.PlainText);
             }
         }
+        
         
     }
     
