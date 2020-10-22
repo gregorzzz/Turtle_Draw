@@ -17,6 +17,10 @@ namespace ProgramingLanguageEnviroment
             xPos = yPos = 0;
             Pen = new Pen(Color.Black, 1);
         }
+        
+        public Canvas()
+        {
+        }
 
         public void DrawLine(int toX, int toY)
         {
