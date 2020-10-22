@@ -23,46 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Form Test/Form Test.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form Test/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form Test/Tests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form Test/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form Test/obj/Debug/Form Test.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form Test/packages.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/FormTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/UnitTest1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/CHANGES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NOTICES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/NUnit.3.5.0.nupkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/dotnet/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/NUnit.System.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net20/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net35/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net40/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/net45/nunit.framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/NUnit.3.5.0/lib/portable-net45+win8+wp8+wpa81+Xamarin.Mac+MonoAndroid10+MonoTouch10+Xamarin.iOS10/nunit.framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
@@ -80,11 +56,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/Form Test/Tests.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +120,8 @@
       <workItem from="1603284043208" duration="15558000" />
       <workItem from="1603307233203" duration="1022000" />
       <workItem from="1603369541407" duration="12740000" />
+      <workItem from="1603392848385" duration="2210000" />
+      <workItem from="1603396095275" duration="4411000" />
     </task>
     <servers />
   </component>
@@ -169,29 +147,38 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1603308260232">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="94" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603393841540">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="94" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603393841540" />
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603401162590">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603401162590" />
     <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1603308260232">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603401162589">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603401162589" />
     <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1603308260232">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603401162589">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603401162589" />
     <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1603308260232">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603401162589">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603401162589" />
     <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1603374631669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603374631669" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1603149577854">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="284" y="10" key="SettingsEditor" timestamp="1603393209977">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="284" y="10" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603393209977" />
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603149577854" />
     <state x="590" y="199" key="ToolboxManager" timestamp="1603049862615">
       <screen x="0" y="0" width="1920" height="1080" />

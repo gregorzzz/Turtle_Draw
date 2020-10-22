@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\FormTest\\FormTest.csproj": {}
+    "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\FormTest\\FormTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\FormTest\\FormTest.csproj": {
+    "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\FormTest\\FormTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\FormTest\\FormTest.csproj",
+        "projectUniqueName": "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\FormTest\\FormTest.csproj",
         "projectName": "FormTest",
-        "projectPath": "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\FormTest\\FormTest.csproj",
+        "projectPath": "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\FormTest\\FormTest.csproj",
         "packagesPath": "C:\\Users\\bspee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\FormTest\\obj\\",
+        "outputPath": "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\FormTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet"
-        ],
         "configFilePaths": [
           "C:\\Users\\bspee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj": {
-                "projectPath": "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj"
+              "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj": {
+                "projectPath": "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj"
               }
             }
           }
@@ -78,16 +74,16 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj": {
+    "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj",
+        "projectUniqueName": "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj",
         "projectName": "ProgramingLanguageEnviroment",
-        "projectPath": "C:\\Users\\bspee\\Documents\\AET\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj"
+        "projectPath": "C:\\Users\\bspee\\RiderProjects\\ase-assignment1\\ProgramingLanguageEnviroment\\ProgramingLanguageEnviroment.csproj"
       },
       "frameworks": {
         "net472": {}

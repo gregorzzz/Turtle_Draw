@@ -33,8 +33,8 @@ namespace FormTest
             
             if (commandList[0].Equals("line"))
             {
-                Assert.IsTrue(MyCanvas.DrawLine(int.Parse(commandList[1]) < xPos);
-                Assert.IsTrue(MyCanvas.DrawLine(int.Parse(commandList[2]) < yPos);
+                Assert.Equals(MyCanvas.DrawLine(int.Parse(commandList[1]) < xPos));
+                Assert.Equals(MyCanvas.DrawLine(int.Parse(commandList[2]) < yPos));
             }
 
 

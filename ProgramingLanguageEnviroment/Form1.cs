@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,6 +72,10 @@ namespace ProgramingLanguageEnviroment
                 {
                     MyCanvas.filll(false);
                 }
+                else if (commandList[0].Equals("save"))
+                {
+                    SaveFile();
+                }
                 
                 Refresh();
             }
@@ -95,6 +100,13 @@ namespace ProgramingLanguageEnviroment
         {
             MyCanvas.ResetPen(0, 0);
           
+        }
+
+        public void SaveFile()
+        {
+            TextWriter txt = new StreamWriter("test.txt");
+            txt.Write(inputBox.Text);
+            txt.Close();
         }
         
     }

@@ -8,3 +8,13 @@ C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnvi
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.exe
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.pdb
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.Form1.resources
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.exe
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.pdb
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csprojAssemblyReference.cache
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\bin\Debug\ProgramingLanguageEnviroment.exe.config
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\bin\Debug\ProgramingLanguageEnviroment.exe
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\bin\Debug\ProgramingLanguageEnviroment.pdb
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.Form1.resources
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.Properties.Resources.resources
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csproj.GenerateResource.cache
+C:\Users\bspee\RiderProjects\ase-assignment1\ProgramingLanguageEnviroment\obj\Debug\ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache
