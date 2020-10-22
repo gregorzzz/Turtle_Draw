@@ -35,7 +35,7 @@ namespace ProgramingLanguageEnviroment
             
             using (var brush = new SolidBrush(Pen.Color))
             {
-                if (fill = true)
+                if (fill == true)
                 {
                     g.FillRectangle(brush,xPos, yPos, xPos +width, yPos + width);
                 }
@@ -48,7 +48,7 @@ namespace ProgramingLanguageEnviroment
             
             using (var brush = new SolidBrush(Pen.Color))
             {
-                if (fill = true)
+                if (fill == true)
                 {
                     g.FillEllipse(brush,xPos, yPos, xPos + radius, yPos + radius);
                 }
@@ -75,7 +75,7 @@ namespace ProgramingLanguageEnviroment
             
             using (var brush = new SolidBrush(Pen.Color))
             {
-                if (fill = true)
+                if (fill == true)
                 {
                     pnt = new PointF[3];
                     pnt[0].X = x;

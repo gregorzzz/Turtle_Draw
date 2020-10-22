@@ -74,7 +74,7 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("save"))
                 {
-                    SaveFile();
+                    SaveFiles();
                 }
                 
                 Refresh();
@@ -102,11 +102,19 @@ namespace ProgramingLanguageEnviroment
           
         }
 
-        public void SaveFile()
+        public void SaveFiles()
         {
-            TextWriter txt = new StreamWriter("test.txt");
-            txt.Write(inputBox.Text);
-            txt.Close();
+
+            SaveFileDialog saveFileBox = new SaveFileDialog();
+
+            saveFileBox.DefaultExt = "*.txt";
+            saveFileBox.Filter = "Text Document|*.txt";
+
+            if (saveFileBox.ShowDialog() == System.Windows.Forms.DialogResult.OK && 
+                saveFileBox.FileName.Length > 0)
+            {
+                inputBox.SaveFile(saveFileBox.FileName, RichTextBoxStreamType.PlainText);
+            }
         }
         
     }
