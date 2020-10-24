@@ -8,8 +8,8 @@ namespace ProgramingLanguageEnviroment
     {
         private Graphics g;
         private Pen Pen;
-        private int xPos, yPos;
-        private bool fill = false;
+        public int xPos, yPos;
+        public static bool fill = false;
         
         public Canvas(Graphics g)
         {
@@ -18,7 +18,7 @@ namespace ProgramingLanguageEnviroment
             Pen = new Pen(Color.Black, 1);
         }
         
-        public Canvas()
+       public Canvas()
         {
         }
 
@@ -141,7 +141,7 @@ namespace ProgramingLanguageEnviroment
            
         }
 
-        public void filll(bool filler)
+        public static void filll(bool filler)
         {
             if (filler){
                 fill = true;
