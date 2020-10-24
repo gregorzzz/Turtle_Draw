@@ -23,8 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/ProgramingLanguageEnviroment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/ProgramingLanguageEnviroment.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +52,7 @@
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
       </list>
     </option>
@@ -105,7 +114,9 @@
       <workItem from="1603307233203" duration="1022000" />
       <workItem from="1603369541407" duration="12740000" />
       <workItem from="1603392848385" duration="2210000" />
-      <workItem from="1603396095275" duration="9988000" />
+      <workItem from="1603396095275" duration="10260000" />
+      <workItem from="1603476926152" duration="1263000" />
+      <workItem from="1603535401142" duration="1790000" />
     </task>
     <servers />
   </component>
@@ -135,25 +146,25 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="94" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603393841540" />
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603402218158">
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603536521030">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603536521030" />
     <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603402218158">
+    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603536521027">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
+    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603536521027" />
     <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603402218158">
+    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603536521027">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
+    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603536521027" />
     <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603402218158">
+    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603536521030">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603402218158" />
+    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603536521030" />
     <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1603374631669">
       <screen x="0" y="0" width="1920" height="1080" />
