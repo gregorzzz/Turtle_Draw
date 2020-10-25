@@ -26,7 +26,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
@@ -41,15 +40,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Form1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Form1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Form1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/215F2307-E820-492D-A272-E3ABA04F3DFF/e3/105ab9b8/Application.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Form Test/Tests.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Form1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/bspee/RiderProjects/ase-assignment1/ProgramingLanguageEnviroment/Canvas.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -58,9 +50,9 @@
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Fill.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
       </list>
     </option>
   </component>
@@ -75,6 +67,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3496678" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2998339" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -124,7 +118,8 @@
       <workItem from="1603396095275" duration="10260000" />
       <workItem from="1603476926152" duration="1263000" />
       <workItem from="1603535401142" duration="2481000" />
-      <workItem from="1603559651268" duration="8843000" />
+      <workItem from="1603559651268" duration="11777000" />
+      <workItem from="1603643909029" duration="2547000" />
     </task>
     <servers />
   </component>
@@ -164,26 +159,90 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="94" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603393841540" />
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603567983541">
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom" timestamp="1603646385371">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603567983541" />
+    <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603646385371" />
     <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603567983541">
+    <state width="1235" height="175" key="GridCell.Tab.0.center" timestamp="1603646385370">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603567983541" />
+    <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603646385370" />
     <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603567983541">
+    <state width="1235" height="175" key="GridCell.Tab.0.left" timestamp="1603646385370">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603567983541" />
+    <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603646385370" />
     <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
-    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603567983541">
+    <state width="1235" height="175" key="GridCell.Tab.0.right" timestamp="1603646385371">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603567983541" />
+    <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603646385371" />
     <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603308260232" />
+    <state width="1235" height="246" key="GridCell.Tab.1.bottom" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.1.center" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.1.left" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.1.right" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.2.bottom" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.2.center" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.2.left" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.2.right" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.3.bottom" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.3.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
+    <state width="1235" height="246" key="GridCell.Tab.3.center" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.3.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
+    <state width="1235" height="246" key="GridCell.Tab.3.left" timestamp="1603645859912">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.3.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
+    <state width="1235" height="246" key="GridCell.Tab.3.right" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.3.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
+    <state width="1235" height="246" key="GridCell.Tab.4.bottom" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.4.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
+    <state width="1235" height="246" key="GridCell.Tab.4.center" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.4.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
+    <state width="1235" height="246" key="GridCell.Tab.4.left" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.4.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
+    <state width="1235" height="246" key="GridCell.Tab.4.right" timestamp="1603645859913">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1235" height="246" key="GridCell.Tab.4.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1603374631669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

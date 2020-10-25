@@ -7,15 +7,17 @@ namespace ProgramingLanguageEnviroment
     public class Canvas
     {
         private Graphics g;
-        private Pen Pen;
+        public Pen Pen;
         public int xPos, yPos;
         public static bool fill = false;
-        
+        public Circle circle;
+
         public Canvas(Graphics g)
         {
             this.g = g;
             xPos = yPos = 0;
             Pen = new Pen(Color.Black, 1);
+
         }
         
        public Canvas()
@@ -41,20 +43,7 @@ namespace ProgramingLanguageEnviroment
                 }
             }
         }
-
-        public void DrawCircle(float radius)
-        {
-            g.DrawEllipse(Pen, xPos , yPos, radius + radius, radius + radius);
-            
-            using (var brush = new SolidBrush(Pen.Color))
-            {
-                if (fill == true)
-                {
-                    g.FillEllipse(brush,xPos, yPos, xPos + radius, yPos + radius);
-                }
-            }
-        }
-
+        
         public void DrawTriangle(int x, int y, int distance, float angle)
         {
             //float angle = 0;
