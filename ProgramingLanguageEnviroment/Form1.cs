@@ -19,12 +19,14 @@ namespace ProgramingLanguageEnviroment
         private Canvas MyCanvas;
         private Circle MyCircle;
         private Rectangle MyRectangle;
+        private Triangle MyTriangle;
         public Form1()
         {
             InitializeComponent();
             MyCanvas = new Canvas(Graphics.FromImage(OutputBitmap));
             MyCircle = new Circle(Graphics.FromImage(OutputBitmap));
             MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));
+            MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap));
             
         }
         
@@ -53,7 +55,7 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("triangle") == true)
                 {
-                    MyCanvas.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+                    MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
                 }
                 else if (commandList[0].Equals("clear") == true)
                 {
