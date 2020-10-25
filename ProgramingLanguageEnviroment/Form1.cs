@@ -20,6 +20,7 @@ namespace ProgramingLanguageEnviroment
         private Circle MyCircle;
         private Rectangle MyRectangle;
         private Triangle MyTriangle;
+        private PenColor ColorPen;
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +28,7 @@ namespace ProgramingLanguageEnviroment
             MyCircle = new Circle(Graphics.FromImage(OutputBitmap));
             MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));
             MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap));
+            ColorPen = new PenColor(Graphics.FromImage(OutputBitmap));
             
         }
         
@@ -69,7 +71,7 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("pen") == true)
                 {
-                    MyCanvas.PenColor(commandList[1]);
+                    PenColor.colorPen(commandList[1]);
                 }
                 else if (commandList[0].Equals("fill_on"))
                 {

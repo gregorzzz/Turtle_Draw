@@ -34,6 +34,7 @@
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="PenColor.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="ProgramingLanguageEnviroment.csproj" t="IncludeRecursive" />
         <e p="Properties" t="Include">

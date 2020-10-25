@@ -6,17 +6,18 @@ namespace ProgramingLanguageEnviroment
     public class Triangle
     {
         public Graphics g;
-        public Pen Pen;
         public Canvas canvas;
+        public PenColor colour; 
         private int xPos, yPos;
         
         public Triangle (Graphics g)
         {
             this.g = g;
             xPos = yPos = 0;
-            Pen = new Pen(Color.Black, 1);
             canvas = new Canvas();
             Canvas.fill = false;
+            colour = new PenColor();
+            PenColor.Pen = new Pen(Color.Black, 1);
         }
         
         public void DrawTriangle(int x, int y, int distance, float angle)
@@ -35,9 +36,9 @@ namespace ProgramingLanguageEnviroment
 
             pnt[2].Y = (float)( y + distance * Math.Sin(angle + Math.PI / 3));  
             
-            g.DrawPolygon(Pen, pnt);
+            g.DrawPolygon(PenColor.Pen, pnt);
             
-            using (var brush = new SolidBrush(Pen.Color))
+            using (var brush = new SolidBrush(PenColor.Pen.Color))
             {
                 if (Canvas.fill == true)
                 {
