@@ -18,11 +18,13 @@ namespace ProgramingLanguageEnviroment
         Bitmap OutputBitmap = new Bitmap(640, 480);
         private Canvas MyCanvas;
         private Circle MyCircle;
+        private Rectangle MyRectangle;
         public Form1()
         {
             InitializeComponent();
             MyCanvas = new Canvas(Graphics.FromImage(OutputBitmap));
             MyCircle = new Circle(Graphics.FromImage(OutputBitmap));
+            MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));
             
         }
         
@@ -37,9 +39,9 @@ namespace ProgramingLanguageEnviroment
                 {
                     MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                 }
-                else if (commandList[0].Equals("square") == true)
+                else if (commandList[0].Equals("rectangle") == true)
                 {
-                    MyCanvas.DrawSquare(Int32.Parse(commandList[1]));
+                    MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                 }
                 else if (commandList[0].Equals("circle") == true)
                 {

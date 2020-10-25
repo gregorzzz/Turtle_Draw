@@ -31,18 +31,7 @@ namespace ProgramingLanguageEnviroment
             yPos = toY;
         }
 
-        public void DrawSquare(int width)
-        {
-            g.DrawRectangle(Pen, xPos, yPos, xPos +width, yPos + width);
-            
-            using (var brush = new SolidBrush(Pen.Color))
-            {
-                if (fill == true)
-                {
-                    g.FillRectangle(brush,xPos, yPos, xPos +width, yPos + width);
-                }
-            }
-        }
+        
         
         public void DrawTriangle(int x, int y, int distance, float angle)
         {
