@@ -89,6 +89,11 @@ namespace ProgramingLanguageEnviroment
                 {
                     LoadFiles();
                 }
+                else
+                {
+                    MessageBox.Show("That is not a valid command", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 
                 Refresh();
             }
