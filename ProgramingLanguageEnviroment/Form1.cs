@@ -37,9 +37,24 @@ namespace ProgramingLanguageEnviroment
         {
             if (e.KeyCode == Keys.Enter)
             {
+                String line = inputBox.Text;
                 String command = command_line.Text.Trim().ToLower();
                 commandList = command.Split(' ');
-                if (commandList[0].Equals("drawTo") == true)
+
+                if (commandList[0].Equals("run") == true)
+                {
+                    using (StringReader reader = new StringReader(inputBox.Text))
+                    {
+                        while ((line = reader.ReadLine()) !=null)
+                        {
+                            commandList =line.Split(' ');
+                            drawShape();
+                        }
+                    }
+
+                }
+                
+                else if (commandList[0].Equals("drawTo") == true)
                 {
                     if(commandList.Length > 3)
                     {
@@ -193,6 +208,98 @@ namespace ProgramingLanguageEnviroment
                 inputBox.LoadFile(loadFileBox.FileName, RichTextBoxStreamType.PlainText);
             }
         }
+
+        public void drawShape()
+        {
+            if (commandList[0].Equals("drawTo") == true)
+            {
+                if(commandList.Length > 3)
+                {
+                    MessageBox.Show("Wrong amount of values. \n Example: drawTo 50 50", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                }
+                    
+            }
+            else if (commandList[0].Equals("rectangle") == true)
+            {
+                if(commandList.Length > 3)
+                {
+                    MessageBox.Show("Wrong amount of values. \n Example: rectangle 40 60", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                }
+                    
+            }
+            else if (commandList[0].Equals("circle") == true)
+            {
+                if(commandList.Length > 2)
+                {
+                    MessageBox.Show("Wrong amount of values. \n Example: circle 30", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MyCircle.DrawCircle(Int32.Parse(commandList[1]));
+                }
+                    
+            }
+            else if (commandList[0].Equals("moveTo") == true)
+            {
+                if(commandList.Length > 3)
+                {
+                    MessageBox.Show("Wrong amount of values. \n Example: moveTo 150 100", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MyCanvas.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                }
+                
+            }
+            else if (commandList[0].Equals("triangle") == true)
+            {
+                if(commandList.Length > 5)
+                {
+                    MessageBox.Show("Wrong amount of values. \n Example: triangle 150 150 100 30", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+
+                }
+            }
+            else if (commandList[0].Equals("clear") == true)
+            {
+                ClearImage();
+                canvas.Refresh();
+            }
+            else if(commandList[0].Equals("reset") == true)
+            {
+                ResetPos();
+                canvas.Refresh();
+            }
+            else if (commandList[0].Equals("pen") == true)
+            {
+                PenColor.colorPen(commandList[1]);
+            }
+            else if (commandList[0].Equals("fill_on"))
+            {
+                Canvas.filll(true);
+            }
+            else if (commandList[0].Equals("fill_off"))
+            {
+                Canvas.filll(false);
+            }
+        }
+        
         
         
     }
