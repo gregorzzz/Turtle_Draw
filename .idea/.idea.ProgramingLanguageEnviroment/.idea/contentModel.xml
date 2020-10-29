@@ -47,6 +47,7 @@
           <e p="Settings.settings" t="Include" />
         </e>
         <e p="Rectangle.cs" t="Include" />
+        <e p="ResetPen.cs" t="Include" />
         <e p="ShapeFill.cs" t="Include" />
         <e p="Triangle.cs" t="Include" />
       </e>

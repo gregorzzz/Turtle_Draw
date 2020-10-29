@@ -178,7 +178,7 @@ namespace ProgramingLanguageEnviroment
 
         public void ResetPos()
         {
-            MyCanvas.ResetPen(0, 0);
+            ResetPen.resetPen(0, 0);
           
         }
 
