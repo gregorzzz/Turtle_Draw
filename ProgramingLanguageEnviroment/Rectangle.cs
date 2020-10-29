@@ -21,13 +21,13 @@ namespace ProgramingLanguageEnviroment
         }
         public void DrawSquare(int width, int height)
         {
-            g.DrawRectangle(PenColor.Pen, xPos, yPos, xPos + width, yPos + height);
+            g.DrawRectangle(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, xPos + width, yPos + height);
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))
             {
                 if (ShapeFill.fill == true)
                 {
-                    g.FillRectangle(brush,xPos, yPos, xPos + width, yPos + height);
+                    g.FillRectangle(brush,MoveTo.xPos , MoveTo.yPos, xPos + width, yPos + height);
                 }
             }
         }

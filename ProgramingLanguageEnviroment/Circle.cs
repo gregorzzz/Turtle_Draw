@@ -6,7 +6,7 @@ namespace ProgramingLanguageEnviroment
     {
         public Graphics g;
         public ShapeFill filler;
-        public PenColor colour; 
+        public PenColor colour;
         public int xPos, yPos;
         
         public Circle(Graphics g)
@@ -21,13 +21,13 @@ namespace ProgramingLanguageEnviroment
         
         public void DrawCircle(float radius)
         {
-            g.DrawEllipse(PenColor.Pen, xPos , yPos, radius + radius, radius + radius);
+            g.DrawEllipse(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))
             {
                 if (ShapeFill.fill == true)
                 {
-                    g.FillEllipse(brush,xPos, yPos, radius + radius, radius + radius);
+                    g.FillEllipse(brush,MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
                 }
             }
         }

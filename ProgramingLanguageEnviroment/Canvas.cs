@@ -23,13 +23,7 @@ namespace ProgramingLanguageEnviroment
        public Canvas()
         {
         }
-
-        public void DrawLine(int toX, int toY)
-        {
-            g.DrawLine(PenColor.Pen, xPos, yPos, toX, toY);
-            xPos = toX;
-            yPos = toY;
-        }
+       
         public void moveTo(int toX, int toY)
         {
             xPos = toX;

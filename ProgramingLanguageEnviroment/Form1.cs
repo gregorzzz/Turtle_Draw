@@ -95,7 +95,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     
                 }
-                else if (commandList[0].Equals("moveTo") == true)
+                else if (commandList[0].Equals("moveto") == true)
                 {
                     if(commandList.Length > 3)
                     {
@@ -104,7 +104,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        MyCanvas.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                 
                 }
@@ -261,7 +261,7 @@ namespace ProgramingLanguageEnviroment
                 }
                 else
                 {
-                    MyCanvas.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                 }
                 
             }
