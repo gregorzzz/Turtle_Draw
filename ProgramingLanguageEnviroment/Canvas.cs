@@ -42,17 +42,5 @@ namespace ProgramingLanguageEnviroment
             yPos = toY;
         }
         
-        public static void filll(bool filler)
-        {
-            if (filler){
-                fill = true;
-            }
-            else
-            {
-                fill = false;
-            }
-            
-        }
-        
     }
 }

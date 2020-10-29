@@ -135,11 +135,11 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("fill_on"))
                 {
-                    Canvas.filll(true);
+                    ShapeFill.filll(true);
                 }
                 else if (commandList[0].Equals("fill_off"))
                 {
-                    Canvas.filll(false);
+                    ShapeFill.filll(false);
                 }
                 else if (commandList[0].Equals("save"))
                 {
@@ -292,11 +292,11 @@ namespace ProgramingLanguageEnviroment
             }
             else if (commandList[0].Equals("fill_on"))
             {
-                Canvas.filll(true);
+                ShapeFill.filll(true);
             }
             else if (commandList[0].Equals("fill_off"))
             {
-                Canvas.filll(false);
+                ShapeFill.filll(false);
             }
         }
         

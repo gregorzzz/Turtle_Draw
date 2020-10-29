@@ -5,7 +5,7 @@ namespace ProgramingLanguageEnviroment
     public class Rectangle
     {
         public Graphics g;
-        public Canvas canvas;
+        public ShapeFill filler;
         public PenColor colour; 
         private int xPos, yPos;
         
@@ -13,8 +13,8 @@ namespace ProgramingLanguageEnviroment
         {
             this.g = g;
             xPos = yPos = 0;
-            canvas = new Canvas();
-            Canvas.fill = false;
+            filler = new ShapeFill();
+            ShapeFill.fill = false;
             colour = new PenColor();
             PenColor.Pen = new Pen(Color.Black, 1);
 
@@ -25,7 +25,7 @@ namespace ProgramingLanguageEnviroment
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))
             {
-                if (Canvas.fill == true)
+                if (ShapeFill.fill == true)
                 {
                     g.FillRectangle(brush,xPos, yPos, xPos + width, yPos + height);
                 }

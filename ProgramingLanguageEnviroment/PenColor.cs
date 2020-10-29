@@ -7,7 +7,7 @@ namespace ProgramingLanguageEnviroment
     {
         public Graphics g;
         public static Pen Pen;
-        public Canvas canvas;
+        public ShapeFill filler;
         private int xPos, yPos;
         
         public PenColor(Graphics g)
@@ -15,8 +15,8 @@ namespace ProgramingLanguageEnviroment
             this.g = g;
             xPos = yPos = 0;
             Pen = new Pen(Color.Black, 1);
-            canvas = new Canvas();
-            Canvas.fill = false;
+            filler = new ShapeFill();
+            ShapeFill.fill = false;
         }
 
         public PenColor()
