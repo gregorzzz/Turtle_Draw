@@ -21,6 +21,7 @@ namespace ProgramingLanguageEnviroment
         private Rectangle MyRectangle;
         private Triangle MyTriangle;
         private PenColor ColorPen;
+        private DrawTo MyLine;
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace ProgramingLanguageEnviroment
             MyCircle = new Circle(Graphics.FromImage(OutputBitmap));
             MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));
             MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap));
+            MyLine = new DrawTo(Graphics.FromImage(OutputBitmap));
             ColorPen = new PenColor(Graphics.FromImage(OutputBitmap));
             
         }
@@ -54,7 +56,7 @@ namespace ProgramingLanguageEnviroment
 
                 }
                 
-                else if (commandList[0].Equals("drawTo") == true)
+                else if (commandList[0].Equals("drawto") == true)
                 {
                     if(commandList.Length > 3)
                     {
@@ -63,7 +65,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                     
                 }
@@ -211,7 +213,7 @@ namespace ProgramingLanguageEnviroment
 
         public void drawShape()
         {
-            if (commandList[0].Equals("drawTo") == true)
+            if (commandList[0].Equals("drawto") == true)
             {
                 if(commandList.Length > 3)
                 {
@@ -220,7 +222,7 @@ namespace ProgramingLanguageEnviroment
                 }
                 else
                 {
-                    MyCanvas.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                 }
                     
             }
