@@ -16,7 +16,6 @@ namespace ProgramingLanguageEnviroment
     {
         private String[] commandList;
         Bitmap OutputBitmap = new Bitmap(640, 480);
-        private Canvas MyCanvas;
         private Circle MyCircle;
         private Rectangle MyRectangle;
         private Triangle MyTriangle;
@@ -25,7 +24,6 @@ namespace ProgramingLanguageEnviroment
         public Form1()
         {
             InitializeComponent();
-            MyCanvas = new Canvas(Graphics.FromImage(OutputBitmap));
             MyCircle = new Circle(Graphics.FromImage(OutputBitmap));
             MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));
             MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap));
