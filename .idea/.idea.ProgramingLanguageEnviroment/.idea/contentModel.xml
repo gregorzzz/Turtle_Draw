@@ -28,7 +28,6 @@
       <e p="ProgramingLanguageEnviroment" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Canvas.cs" t="Include" />
         <e p="Circle.cs" t="Include" />
         <e p="DrawTo.cs" t="Include" />
         <e p="Form1.cs" t="Include" />
