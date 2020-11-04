@@ -23,109 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CommunicationUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.CrossPlatEngine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.TestPlatform.Utilities.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.TestFramework.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/cs/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/de/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/es/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/fr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/it/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ja/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ko/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pl/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ru/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/testhost.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/tr/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
@@ -138,7 +49,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Form Test/Tests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,13 +72,13 @@
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/ShapeFill.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Triangle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/PenColor.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Canvas.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/ResetPen.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/MoveTo.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
       </list>
     </option>
@@ -227,7 +149,8 @@
       <workItem from="1603890118440" duration="471000" />
       <workItem from="1603902311031" duration="12337000" />
       <workItem from="1603977766675" duration="8933000" />
-      <workItem from="1604333327566" duration="4528000" />
+      <workItem from="1604333327566" duration="4722000" />
+      <workItem from="1604497354059" duration="9931000" />
     </task>
     <servers />
   </component>
@@ -267,26 +190,30 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="94" y="14" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1603393841540" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1604337354901">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1604502892386">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502892386" />
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1604506221046">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604337354901" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1604337354901">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604506221046" />
+    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1604506221046">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604337354901" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1604337354901">
+    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604506221046" />
+    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1604506221045">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604337354901" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1604337354901">
+    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604506221045" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1604506221046">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604337354901" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604506221046" />
     <state width="1875" height="389" key="GridCell.Tab.1.bottom" timestamp="1603918082368">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -371,6 +298,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603374631669" />
+    <state x="692" y="248" key="RollbackChangesDialog" timestamp="1604502805577">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="692" y="248" key="RollbackChangesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502805577" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1603829358083">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -380,10 +311,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="590" y="199" key="ToolboxManager/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603049862615" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1603121051386">
+    <state x="600" y="243" key="VCS.ChangeListViewerDialog" timestamp="1604502716044">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603121051386" />
+    <state x="600" y="243" key="VCS.ChangeListViewerDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502716044" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1604505969704">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604505969704" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603985248987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

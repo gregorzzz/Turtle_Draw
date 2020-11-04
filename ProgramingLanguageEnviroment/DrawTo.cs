@@ -21,9 +21,9 @@ namespace ProgramingLanguageEnviroment
         
         public void DrawLine(int toX, int toY)
         {
-            g.DrawLine(PenColor.Pen, xPos, yPos, toX, toY);
-            xPos = toX;
-            yPos = toY;
+            g.DrawLine(PenColor.Pen, MoveTo.xPos, MoveTo.yPos, toX, toY);
+            MoveTo.xPos = toX;
+            MoveTo.yPos = toY;
         }
     }
 }
