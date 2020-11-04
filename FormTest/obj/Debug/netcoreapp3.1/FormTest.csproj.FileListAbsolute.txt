@@ -95,3 +95,8 @@ C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\obj\Debug\net
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\obj\Debug\netcoreapp3.1\FormTest.dll
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\obj\Debug\netcoreapp3.1\FormTest.pdb
 C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\obj\Debug\netcoreapp3.1\FormTest.genruntimeconfig.cache
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\FormTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll

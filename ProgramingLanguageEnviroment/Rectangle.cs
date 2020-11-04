@@ -7,8 +7,8 @@ namespace ProgramingLanguageEnviroment
         public Graphics g;
         public ShapeFill filler;
         public PenColor colour; 
-        private int xPos, yPos;
-        
+        public int xPos, yPos;
+
         public Rectangle(Graphics g)
         {
             this.g = g;
@@ -19,6 +19,11 @@ namespace ProgramingLanguageEnviroment
             PenColor.Pen = new Pen(Color.Black, 1);
 
         }
+
+        public Rectangle()
+        {
+        }
+
         public void DrawSquare(int width, int height)
         {
             g.DrawRectangle(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, xPos + width, yPos + height);

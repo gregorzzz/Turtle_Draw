@@ -56,68 +56,50 @@ namespace ProgramingLanguageEnviroment
                 
                 else if (commandList[0].Equals("drawto") == true)
                 {
-                    if(commandList.Length > 3)
-                    {
-                        MessageBox.Show("Wrong amount of values. \n Example: drawTo 50 50", "Error", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                    }
+                    if(commandList.Length != 3)
+                        throw new ApplicationException("Wrong amount of values. Example: drawTo 50 50");
                     
+                    
+                    MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    
+                        
                 }
                 else if (commandList[0].Equals("rectangle") == true)
                 {
-                    if(commandList.Length > 3)
-                    {
-                        MessageBox.Show("Wrong amount of values. \n Example: rectangle 40 60", "Error", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                    }
+                    if(commandList.Length != 3)
+                        throw new ApplicationException("Wrong amount of values. Example: rectangle 60 40");
+                  
+                    MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    
                     
                 }
                 else if (commandList[0].Equals("circle") == true)
                 {
-                    if(commandList.Length > 2)
-                    {
-                        MessageBox.Show("Wrong amount of values. \n Example: circle 30", "Error", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MyCircle.DrawCircle(Int32.Parse(commandList[1]));
-                    }
+                    if(commandList.Length != 2)
+                        throw new ApplicationException("Wrong amount of values. Example: circle 30");
+                    
+                    MyCircle.DrawCircle(Int32.Parse(commandList[1]));
                     
                 }
                 else if (commandList[0].Equals("moveto") == true)
                 {
-                    if(commandList.Length > 3)
-                    {
-                        MessageBox.Show("Wrong amount of values. \n Example: moveTo 150 100", "Error", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                    }
+                    if(commandList.Length != 3)
+                    
+                        throw new ApplicationException("Wrong amount of values. Example: moveTo 150 100");
+                    
+                    MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    
                 
                 }
                 else if (commandList[0].Equals("triangle") == true)
                 {
-                    if(commandList.Length > 5)
-                    {
-                        MessageBox.Show("Wrong amount of values. \n Example: triangle 150 150 100 30", "Error", 
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+                    if(commandList.Length != 5)
 
-                    }
+                        throw new ApplicationException("Wrong amount of values. Example: triangle 150 150 100 30");
+                   
+                    MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+
+                    
                 }
                 else if (commandList[0].Equals("clear") == true)
                 {
@@ -151,9 +133,9 @@ namespace ProgramingLanguageEnviroment
                 }
                 else
                 {
-                    MessageBox.Show("That is not a valid command", "Error", 
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    throw new ApplicationException( "That is not a valid command");
                 }
+                
                 
                 Refresh();
             }
@@ -211,93 +193,87 @@ namespace ProgramingLanguageEnviroment
 
         public void drawShape()
         {
-            if (commandList[0].Equals("drawto") == true)
-            {
-                if(commandList.Length > 3)
-                {
-                    MessageBox.Show("Wrong amount of values. \n Example: drawTo 50 50", "Error", 
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                }
+             if (commandList[0].Equals("drawto") == true)
+             {
+                 if(commandList.Length != 3)
+                     throw new ApplicationException("Wrong amount of values. Example: drawTo 50 50");
                     
-            }
-            else if (commandList[0].Equals("rectangle") == true)
-            {
-                if(commandList.Length > 3)
-                {
-                    MessageBox.Show("Wrong amount of values. \n Example: rectangle 40 60", "Error", 
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                }
                     
-            }
-            else if (commandList[0].Equals("circle") == true)
-            {
-                if(commandList.Length > 2)
-                {
-                    MessageBox.Show("Wrong amount of values. \n Example: circle 30", "Error", 
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MyCircle.DrawCircle(Int32.Parse(commandList[1]));
-                }
+                 MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     
-            }
-            else if (commandList[0].Equals("moveTo") == true)
-            {
-                if(commandList.Length > 3)
-                {
-                    MessageBox.Show("Wrong amount of values. \n Example: moveTo 150 100", "Error", 
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                }
+                        
+             }
+             else if (commandList[0].Equals("rectangle") == true)
+             {
+                 if(commandList.Length != 3)
+                     throw new ApplicationException("Wrong amount of values. Example: rectangle 60 40");
+                  
+                 MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    
+                    
+             }
+             else if (commandList[0].Equals("circle") == true)
+             {
+                 if(commandList.Length != 2)
+                     throw new ApplicationException("Wrong amount of values. Example: circle 30");
+                    
+                 MyCircle.DrawCircle(Int32.Parse(commandList[1]));
+                    
+             }
+             else if (commandList[0].Equals("moveto") == true)
+             {
+                 if(commandList.Length != 3)
+                    
+                     throw new ApplicationException("Wrong amount of values. Example: moveTo 150 100");
+                    
+                 MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                    
                 
-            }
-            else if (commandList[0].Equals("triangle") == true)
-            {
-                if(commandList.Length > 5)
-                {
-                    MessageBox.Show("Wrong amount of values. \n Example: triangle 150 150 100 30", "Error", 
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+             }
+             else if (commandList[0].Equals("triangle") == true)
+             {
+                 if(commandList.Length != 5)
 
-                }
-            }
-            else if (commandList[0].Equals("clear") == true)
-            {
-                ClearImage();
-                canvas.Refresh();
-            }
-            else if(commandList[0].Equals("reset") == true)
-            {
-                ResetPos();
-                canvas.Refresh();
-            }
-            else if (commandList[0].Equals("pen") == true)
-            {
-                PenColor.colorPen(commandList[1]);
-            }
-            else if (commandList[0].Equals("fill_on"))
-            {
-                ShapeFill.filll(true);
-            }
-            else if (commandList[0].Equals("fill_off"))
-            {
-                ShapeFill.filll(false);
-            }
+                     throw new ApplicationException("Wrong amount of values. Example: triangle 150 150 100 30");
+                   
+                 MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+
+                    
+             }
+             else if (commandList[0].Equals("clear") == true)
+             {
+                 ClearImage();
+                 canvas.Refresh();
+             }
+             else if(commandList[0].Equals("reset") == true)
+             {
+                 ResetPos();
+                 canvas.Refresh();
+             }
+             else if (commandList[0].Equals("pen") == true)
+             {
+                 PenColor.colorPen(commandList[1]);
+             }
+             else if (commandList[0].Equals("fill_on"))
+             {
+                 ShapeFill.filll(true);
+             }
+             else if (commandList[0].Equals("fill_off"))
+             {
+                 ShapeFill.filll(false);
+             }
+             else if (commandList[0].Equals("save"))
+             {
+                 SaveFiles();
+             }
+             else if (commandList[0].Equals("load"))
+             {
+                 LoadFiles();
+             }
+             else
+             {
+                 throw new ApplicationException( "That is not a valid command");
+             }
         }
         
         

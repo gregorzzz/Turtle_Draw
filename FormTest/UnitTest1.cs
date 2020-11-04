@@ -1,6 +1,8 @@
 using System;
+using System.Drawing;
 using ProgramingLanguageEnviroment;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Rectangle = ProgramingLanguageEnviroment.Rectangle;
 
 
 namespace FormTest
@@ -8,6 +10,14 @@ namespace FormTest
     [TestClass]
     public class UnitTest1
     {
+        Rectangle MyRectangle = new Rectangle();
+        private readonly Bitmap OutputBitMap = new Bitmap(840, 680); // set up new bitmap
+
+        [TestInitialize]
+        public void Initilize()
+        {
+            MyRectangle = new Rectangle(Graphics.FromImage(OutputBitMap));
+        }
         
         [TestMethod]
         public void TestValidMoveToCommand()
@@ -40,6 +50,8 @@ namespace FormTest
             Assert.AreEqual(toY, MoveTo.yPos);
                 
         }
+
+        
         
     }
 }

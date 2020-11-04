@@ -18,7 +18,11 @@ namespace ProgramingLanguageEnviroment
             colour = new PenColor();
             PenColor.Pen = new Pen(Color.Black, 1);
         }
-        
+
+        public Circle()
+        {
+        }
+
         public void DrawCircle(float radius)
         {
             g.DrawEllipse(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
