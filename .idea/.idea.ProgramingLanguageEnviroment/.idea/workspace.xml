@@ -23,33 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/FormTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/FormTest.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/FormTest.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
@@ -67,6 +50,8 @@
     <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1EECF971-EF7B-44F5-AF0D-470444405E36/28/861228df/Executor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/ProgramingLanguageEnviroment/Form1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/ProgramingLanguageEnviroment/Form1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AD61CA47-F8B7-4CC6-93A0-BA44CC73B5C7/0b/17ff49ad/ThreadHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/bspee/Documents/AET/ProgramingLanguageEnviroment/FormTest/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -96,8 +81,8 @@
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
+        <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -168,7 +153,7 @@
       <workItem from="1603902311031" duration="12337000" />
       <workItem from="1603977766675" duration="8933000" />
       <workItem from="1604333327566" duration="4722000" />
-      <workItem from="1604497354059" duration="19693000" />
+      <workItem from="1604497354059" duration="25293000" />
     </task>
     <servers />
   </component>
@@ -212,26 +197,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502892386" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1604520565753">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1604524667696">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604520565753" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1604520565753">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604524667696" />
+    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1604524667696">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604520565753" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1604520565753">
+    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604524667696" />
+    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1604524667695">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604520565753" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1604520565753">
+    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604524667695" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1604524667696">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604520565753" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604524667696" />
     <state width="1875" height="389" key="GridCell.Tab.1.bottom" timestamp="1604517038357">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -333,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="600" y="243" key="VCS.ChangeListViewerDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502716044" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1604508454533">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1604521152930">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604508454533" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604521152930" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1604519678861">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

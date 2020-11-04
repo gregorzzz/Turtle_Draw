@@ -57,7 +57,7 @@ namespace ProgramingLanguageEnviroment
                 else if (commandList[0].Equals("drawto") == true)
                 {
                     if(commandList.Length != 3)
-                        throw new ApplicationException("Wrong amount of values. Example: drawTo 50 50");
+                        throw new IndexOutOfRangeException("Wrong amount of values. Example: drawTo 50 50");
                     
                     
                     MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
@@ -85,7 +85,7 @@ namespace ProgramingLanguageEnviroment
                 {
                     if(commandList.Length != 3)
                     
-                        throw new ApplicationException("Wrong amount of values. Example: moveTo 150 100");
+                        throw new IndexOutOfRangeException("Wrong amount of values. Example: moveTo 150 100");
                     
                     MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     
@@ -190,7 +190,7 @@ namespace ProgramingLanguageEnviroment
                 inputBox.LoadFile(loadFileBox.FileName, RichTextBoxStreamType.PlainText);
             }
         }
-
+        
         public void drawShape()
         {
              if (commandList[0].Equals("drawto") == true)
