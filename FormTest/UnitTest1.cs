@@ -76,5 +76,37 @@ namespace FormTest
             Assert.AreEqual("Index was outside the bounds of the array.", command);
 
         }
+
+        [TestMethod]
+        public void TestPenResetPosition()
+        {
+            String draw = "reset";
+            String[] commandList;
+            commandList = draw.Split(' ');
+            MoveTo.xPos = 60;
+            MoveTo.yPos = 90;
+            int toX = 0;
+            int toY = 0;
+
+            ResetPen.resetPen(0, 0);
+
+            Assert.AreEqual(toX, MoveTo.xPos);
+            Assert.AreEqual(toY, MoveTo.yPos);
+        }
+
+        [TestMethod]
+        public void TestPenColorChange()
+        {
+            String command = "pen green";
+            String[] commandList;
+            commandList = command.Split(' ');
+            Pen scribble;
+            scribble = new Pen(Color.Green, 1);
+            
+            PenColor.colorPen(commandList[1]);
+            
+            Assert.AreEqual(scribble.Color, PenColor.Pen.Color);
+        }
+        
     }
 }
