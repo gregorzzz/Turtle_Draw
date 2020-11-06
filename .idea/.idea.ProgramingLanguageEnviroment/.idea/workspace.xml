@@ -24,12 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +54,9 @@
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/PenColor.cs" />
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
       </list>
     </option>
   </component>
@@ -81,10 +76,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.ProgramingLanguageEnviroment">
+  <component name="RunManager">
     <configuration name="ProgramingLanguageEnviroment" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -133,7 +128,8 @@
       <workItem from="1603977766675" duration="8933000" />
       <workItem from="1604333327566" duration="4722000" />
       <workItem from="1604497354059" duration="26058000" />
-      <workItem from="1604591486528" duration="4581000" />
+      <workItem from="1604591486528" duration="4945000" />
+      <workItem from="1604664103939" duration="5093000" />
     </task>
     <servers />
   </component>
@@ -285,11 +281,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="692" y="248" key="RollbackChangesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502805577" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1603829358083">
+    <state x="461" y="185" key="SettingsEditor" timestamp="1604664987941">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="284" y="10" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1603393209977" />
-    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1603829358083" />
+    <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604664987941" />
     <state x="590" y="199" key="ToolboxManager" timestamp="1603049862615">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
