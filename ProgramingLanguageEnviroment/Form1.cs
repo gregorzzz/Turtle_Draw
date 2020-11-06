@@ -21,7 +21,6 @@ namespace ProgramingLanguageEnviroment
         private Circle MyCircle;
         private Rectangle MyRectangle;
         private Triangle MyTriangle;
-        private PenColor ColorPen;
         private DrawTo MyLine;
         public Form1()
         {
@@ -30,7 +29,7 @@ namespace ProgramingLanguageEnviroment
             MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of rectangle
             MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of Triangle 
             MyLine = new DrawTo(Graphics.FromImage(OutputBitmap));//class for handling the drawing of a line to move the pen 
-            ColorPen = new PenColor(Graphics.FromImage(OutputBitmap));//class for handling the pen color change
+            
             
         }
         /// <summary>

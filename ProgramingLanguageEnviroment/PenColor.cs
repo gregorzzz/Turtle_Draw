@@ -3,26 +3,17 @@ using System.Drawing;
 
 namespace ProgramingLanguageEnviroment
 {
+    /// <summary>
+    /// PenColor class keeps hold of possible pen colours changes when command is triggered 
+    /// </summary>
     public class PenColor
     {
-        public Graphics g;
         public static Pen Pen;
-        public ShapeFill filler;
-        private int xPos, yPos;
         
-        public PenColor(Graphics g)
-        {
-            this.g = g;
-            xPos = yPos = 0;
-            Pen = new Pen(Color.Black, 1);
-            filler = new ShapeFill();
-            ShapeFill.fill = false;
-        }
-
-        public PenColor()
-        {
-        }
-        
+        /// <summary>
+        /// Changes colour of pen
+        /// </summary>
+        /// <param name="color"> chosen pen colour</param>
         public static void colorPen(String color)
         {
             

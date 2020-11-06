@@ -2,24 +2,13 @@
 
 namespace ProgramingLanguageEnviroment
 {
+    /// <summary>
+    /// Is turned on and off by command 
+    /// </summary>
     public class ShapeFill
     {
-        private Graphics g;
-        public int xPos, yPos;
         public static bool fill = false;
 
-        
-        public ShapeFill(Graphics g)
-        {
-            this.g = g;
-            xPos = yPos = 0;
-
-        }
-
-        public ShapeFill()
-        {
-            
-        }
         public static void filll(bool filler)
         {
             if (filler){

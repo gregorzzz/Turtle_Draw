@@ -2,23 +2,18 @@
 
 namespace ProgramingLanguageEnviroment
 {
+    /// <summary>
+    /// MoveTo class hold information on where to move pen command is triggered 
+    /// </summary>
     public class MoveTo
     {
-        public Graphics g;
-        public ShapeFill filler;
-        public PenColor colour; 
         public static int xPos, yPos;
         
-        public MoveTo(Graphics g)
-        {
-            this.g = g;
-            xPos = yPos = 0;
-            filler = new ShapeFill();
-            ShapeFill.fill = false;
-            colour = new PenColor();
-            PenColor.Pen = new Pen(Color.Black, 1);
-        }
-        
+        /// <summary>
+        /// changes pen postion
+        /// </summary>
+        /// <param name="toX">x position to move pen to</param>
+        /// <param name="toY">y position to move pen to</param>
         public static void moveTo(int toX, int toY)
         {
             xPos = toX;

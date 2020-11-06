@@ -8,6 +8,7 @@ using Rectangle = ProgramingLanguageEnviroment.Rectangle;
 
 namespace FormTest
 {
+   
     [TestClass]
     public class UnitTest1
     {
@@ -20,6 +21,9 @@ namespace FormTest
             MyRectangle = new Rectangle(Graphics.FromImage(OutputBitMap));
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [TestMethod]
         public void TestValidMoveToCommand()
         {
@@ -36,6 +40,9 @@ namespace FormTest
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [TestMethod]
         public void TestValidDrawToCommand()
         {
@@ -52,6 +59,9 @@ namespace FormTest
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [TestMethod]
         public void TestInvalidDrawToCommand()
         {
@@ -77,6 +87,9 @@ namespace FormTest
 
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [TestMethod]
         public void TestPenResetPosition()
         {
@@ -94,6 +107,9 @@ namespace FormTest
             Assert.AreEqual(toY, MoveTo.yPos);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         [TestMethod]
         public void TestPenColorChange()
         {
