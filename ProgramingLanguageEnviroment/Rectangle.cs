@@ -27,10 +27,6 @@ namespace ProgramingLanguageEnviroment
 
         }
 
-        public Rectangle()
-        {
-        }
-
         /// <summary>
         /// draws a rectangle at pens current position from user input
         /// </summary>

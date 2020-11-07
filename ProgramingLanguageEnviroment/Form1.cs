@@ -37,8 +37,6 @@ namespace ProgramingLanguageEnviroment
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        /// <exception cref="IndexOutOfRangeException"></exception>
-        /// <exception cref="ApplicationException"></exception>
         private void command_line_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -47,9 +45,9 @@ namespace ProgramingLanguageEnviroment
                 String line = inputBox.Text;
                 //extract command from command line
                 String command = command_line.Text.Trim().ToLower();
-                commandList = command.Split(' ');
+                commandList = command.Split(',',' ');
                 command_line.Clear();
-                
+
                 // run command for executing commands in user input text area
                 if (commandList[0].Equals("run") == true)
                 {
@@ -57,93 +55,18 @@ namespace ProgramingLanguageEnviroment
                     {
                         while ((line = reader.ReadLine()) !=null)
                         {
-                            commandList =line.Split(' ');
+                            commandList =line.Split(' ',',');
                             drawShape();
                         }
                     }
                 }
-                // code bellow to be possibly removed as redundant 
-                /* else if (commandList[0].Equals("drawto") == true)
-                 {
-                     if(commandList.Length != 3)
-                         throw new IndexOutOfRangeException("Wrong amount of values. Example: drawTo 50 50");
- 
-                     MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                 }
-                 else if (commandList[0].Equals("rectangle") == true)
-                 {
-                     if(commandList.Length != 3)
-                         throw new ApplicationException("Wrong amount of values. Example: rectangle 60 40");
-                   
-                     MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                 }
-                 else if (commandList[0].Equals("circle") == true)
-                 {
-                     if(commandList.Length != 2)
-                         throw new ApplicationException("Wrong amount of values. Example: circle 30");
-                     
-                     MyCircle.DrawCircle(Int32.Parse(commandList[1]));
-                 }
-                 else if (commandList[0].Equals("moveto") == true)
-                 {
-                     if(commandList.Length != 3)
-                     
-                         throw new IndexOutOfRangeException("Wrong amount of values. Example: moveTo 150 100");
-                     
-                     MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                 }
-                 else if (commandList[0].Equals("triangle") == true)
-                 {
-                     if(commandList.Length != 5)
- 
-                         throw new ApplicationException("Wrong amount of values. Example: triangle 150 150 100 30");
-                    
-                     MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
-                 }
-                 else if (commandList[0].Equals("clear") == true)
-                 {
-                     ClearImage();
-                     canvas.Refresh();
-                 }
-                 else if(commandList[0].Equals("reset") == true)
-                 {
-                     ResetPos();
-                     canvas.Refresh();
-                 }
-                 else if (commandList[0].Equals("pen") == true)
-                 {
-                     PenColor.colorPen(commandList[1]);
-                 }
-                 else if (commandList[0].Equals("fill_on"))
-                 {
-                     ShapeFill.filll(true);
-                 }
-                 else if (commandList[0].Equals("fill_off"))
-                 {
-                     ShapeFill.filll(false);
-                 }
-                 else if (commandList[0].Equals("save"))
-                 {
-                     SaveFiles();
-                 }
-                 else if (commandList[0].Equals("load"))
-                 {
-                     LoadFiles();
-                 }
-                 else
-                 {
-                     throw new ApplicationException( "That is not a valid command");
-                 }*/
-                
                 drawShape();
-                
                 Refresh();
             }
-            
         }
 
         /// <summary>
-        /// 
+        /// draws graphics on pictureBox
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -206,36 +129,46 @@ namespace ProgramingLanguageEnviroment
         }
         
         /// <summary>
-        /// method drawShape handles commands for run command  
+        /// method drawShape handles running commands
         /// </summary>
-        /// <exception cref="ApplicationException"></exception>
         public void drawShape()
         {
              if (commandList[0].Equals("drawto") == true)
              {
                  if(commandList.Length != 3)
-                     throw new ApplicationException("Wrong amount of values. Example: drawTo 50 50");
-                 
+                 {
+                     MessageBox.Show("Wrong amount of values.\\n Example: drawTo 50 50", "Error",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
                  MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
              }
              else if (commandList[0].Equals("rectangle") == true)
              {
                  if(commandList.Length != 3)
-                     throw new ApplicationException("Wrong amount of values. Example: rectangle 60 40");
-                  
+                 {
+                     MessageBox.Show("Wrong amount of values.\\n Example: rectangle 50 50", "Error",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
+                 
                  MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
              }
              else if (commandList[0].Equals("circle") == true)
              {
                  if(commandList.Length != 2)
-                     throw new ApplicationException("Wrong amount of values. Example: circle 30");
-                    
+                 {
+                     MessageBox.Show("Wrong amount of values.\\n Example: circle 50", "Error",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
+
                  MyCircle.DrawCircle(Int32.Parse(commandList[1]));
              }
              else if (commandList[0].Equals("moveto") == true)
              {
-                 if(commandList.Length != 3)
-                     throw new ApplicationException("Wrong amount of values. Example: moveTo 150 100");
+                 if(commandList.Length >3 )
+                 {
+                     MessageBox.Show("Wrong amount of values.\\n Example: moveto 50 50", "Error",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
                     
                  MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                  
@@ -243,8 +176,11 @@ namespace ProgramingLanguageEnviroment
              else if (commandList[0].Equals("triangle") == true)
              {
                  if(commandList.Length != 5)
-                     throw new ApplicationException("Wrong amount of values. Example: triangle 150 150 100 30");
-                   
+                 {
+                     MessageBox.Show("Wrong amount of values.\\n xample: triangle 150 150 100 30", "Error",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
+
                  MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
              }
              else if (commandList[0].Equals("clear") == true)
@@ -283,8 +219,25 @@ namespace ProgramingLanguageEnviroment
              }
         }
         
-        
-        
+        /// <summary>
+        /// button to run commands form inputbox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void runButton_Click(object sender, EventArgs e)
+        {
+            String line = inputBox.Text;
+            
+            using (StringReader reader = new StringReader(inputBox.Text))
+            {
+                while ((line = reader.ReadLine()) !=null)
+                {
+                    commandList =line.Split(' ',',');
+                    drawShape();
+                }
+            }
+            Refresh();
+        }
     }
     
 }

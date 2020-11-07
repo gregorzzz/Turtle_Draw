@@ -12,14 +12,6 @@ namespace FormTest
     [TestClass]
     public class UnitTest1
     {
-        Rectangle MyRectangle = new Rectangle();
-        private readonly Bitmap OutputBitMap = new Bitmap(840, 680); // set up new bitmap
-
-        [TestInitialize]
-        public void Initilize()
-        {
-            MyRectangle = new Rectangle(Graphics.FromImage(OutputBitMap));
-        }
 
         /// <summary>
         /// 
@@ -123,6 +115,7 @@ namespace FormTest
             
             Assert.AreEqual(scribble.Color, PenColor.Pen.Color);
         }
+        
         
     }
 }

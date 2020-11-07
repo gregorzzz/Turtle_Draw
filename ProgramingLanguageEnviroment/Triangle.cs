@@ -10,9 +10,8 @@ namespace ProgramingLanguageEnviroment
     {
         public Graphics g;
         public ShapeFill filler;
-        public PenColor colour; 
-        private int xPos, yPos;
-        
+        public PenColor colour;
+
         /// <summary>
         /// Constructor initialises Triangle to Pen or ShapeFill 
         /// </summary>
@@ -20,7 +19,6 @@ namespace ProgramingLanguageEnviroment
         public Triangle (Graphics g)
         {
             this.g = g;
-            xPos = yPos = 0;
             filler = new ShapeFill();//triggers fill on or off 
             ShapeFill.fill = false;
             colour = new PenColor();

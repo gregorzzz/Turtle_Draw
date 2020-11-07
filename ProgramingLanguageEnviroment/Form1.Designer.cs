@@ -37,6 +37,7 @@ namespace ProgramingLanguageEnviroment
             this.labelInput = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.runButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize) (this.canvas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +71,7 @@ namespace ProgramingLanguageEnviroment
             this.command_line.ForeColor = System.Drawing.Color.White;
             this.command_line.Location = new System.Drawing.Point(33, 523);
             this.command_line.Name = "command_line";
+            this.command_line.AutoSize = false;
             this.command_line.Size = new System.Drawing.Size(808, 97);
             this.command_line.TabIndex = 2;
             this.command_line.KeyDown += new System.Windows.Forms.KeyEventHandler(this.command_line_KeyDown);
@@ -77,7 +79,7 @@ namespace ProgramingLanguageEnviroment
             // labelInput
             // 
             this.labelInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.labelInput.ForeColor = System.Drawing.Color.Gold;
+            this.labelInput.ForeColor = System.Drawing.Color.White;
             this.labelInput.Location = new System.Drawing.Point(189, 9);
             this.labelInput.Name = "labelInput";
             this.labelInput.Size = new System.Drawing.Size(102, 38);
@@ -87,7 +89,7 @@ namespace ProgramingLanguageEnviroment
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label2.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(589, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 46);
@@ -97,19 +99,30 @@ namespace ProgramingLanguageEnviroment
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(372, 479);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 43);
             this.label1.TabIndex = 5;
             this.label1.Text = "Console";
             // 
+            // runButton
+            // 
+            this.runButton.Location = new System.Drawing.Point(34, 622);
+            this.runButton.Name = "runButton";
+            this.runButton.Size = new System.Drawing.Size(87, 34);
+            this.runButton.TabIndex = 6;
+            this.runButton.Text = "Run";
+            this.runButton.UseVisualStyleBackColor = true;
+            this.runButton.Click += new System.EventHandler(this.runButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(900, 674);
+            this.Controls.Add(this.runButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelInput);
@@ -120,7 +133,10 @@ namespace ProgramingLanguageEnviroment
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize) (this.canvas)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
         }
+
+        private System.Windows.Forms.Button runButton;
 
         private System.Windows.Forms.RichTextBox inputBox;
 
