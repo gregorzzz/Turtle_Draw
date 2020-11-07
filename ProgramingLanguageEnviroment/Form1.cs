@@ -133,89 +133,108 @@ namespace ProgramingLanguageEnviroment
         /// </summary>
         public void drawShape()
         {
-             if (commandList[0].Equals("drawto") == true)
+             if (commandList[0].Equals("drawto") == true) // drawto command
              {
-                 if(commandList.Length != 3)
+                 if(commandList.Length != 3)// checks for incorrect amount of values
                  {
-                     MessageBox.Show("Wrong amount of values.\\n Example: drawTo 50 50", "Error",
+                     MessageBox.Show("Wrong amount of values.\nExample: drawTo 50,50", "Error",
                          MessageBoxButtons.OK, MessageBoxIcon.Error);
                  }
-                 MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-             }
-             else if (commandList[0].Equals("rectangle") == true)
-             {
-                 if(commandList.Length != 3)
+                 else
                  {
-                     MessageBox.Show("Wrong amount of values.\\n Example: rectangle 50 50", "Error",
+                     MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                 }
+             }
+             else if (commandList[0].Equals("rectangle") == true) // rectangle command 
+             {
+                 if(commandList.Length != 3)// checks for incorrect amount of values
+                 {
+                     MessageBox.Show("Wrong amount of values.\nExample: rectangle 50,50", "Error",
                          MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
+                 else
+                 {
+                     MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                  }
                  
-                 MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
              }
-             else if (commandList[0].Equals("circle") == true)
+             else if (commandList[0].Equals("circle") == true) // circle command 
              {
-                 if(commandList.Length != 2)
+                 if(commandList.Length != 2)// checks for incorrect amount of values
                  {
-                     MessageBox.Show("Wrong amount of values.\\n Example: circle 50", "Error",
+                     MessageBox.Show("Wrong amount of values.\nExample: circle 50", "Error",
                          MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
+                 else
+                 {
+                     MyCircle.DrawCircle(Int32.Parse(commandList[1]));
                  }
 
-                 MyCircle.DrawCircle(Int32.Parse(commandList[1]));
-             }
-             else if (commandList[0].Equals("moveto") == true)
-             {
-                 if(commandList.Length >3 )
-                 {
-                     MessageBox.Show("Wrong amount of values.\\n Example: moveto 50 50", "Error",
-                         MessageBoxButtons.OK, MessageBoxIcon.Error);
-                 }
-                    
-                 MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                  
              }
-             else if (commandList[0].Equals("triangle") == true)
+             else if (commandList[0].Equals("moveto") == true) // moveto command 
              {
-                 if(commandList.Length != 5)
+                 if(commandList.Length !=3 )// checks for incorrect amount of values
                  {
-                     MessageBox.Show("Wrong amount of values.\\n xample: triangle 150 150 100 30", "Error",
+                     MessageBox.Show("Wrong amount of values.\nExample: moveto 50,50", "Error",
                          MessageBoxButtons.OK, MessageBoxIcon.Error);
                  }
+                 else
+                 {
+                     MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                 }
 
-                 MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
              }
-             else if (commandList[0].Equals("clear") == true)
+             else if (commandList[0].Equals("triangle") == true)// triangle command
+             {
+                 if(commandList.Length != 5)// checks for incorrect amount of values
+                 {
+                     MessageBox.Show("Wrong amount of values.\nExample: triangle 150,150,100,30", "Error",
+                         MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 }
+                 else
+                 {
+                     MyTriangle.DrawTriangle(Int32.Parse(commandList[1]),Int32.Parse(commandList[2]),Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+                 }
+                 
+             }
+             else if (commandList[0].Equals("clear") == true)// clear command 
              {
                  ClearImage();
                  canvas.Refresh();
              }
-             else if(commandList[0].Equals("reset") == true)
+             else if(commandList[0].Equals("reset") == true)// reset command 
              {
                  ResetPos();
                  canvas.Refresh();
              }
-             else if (commandList[0].Equals("pen") == true)
+             else if (commandList[0].Equals("pen") == true) // change pen colour command 
              {
                  PenColor.colorPen(commandList[1]);
              }
-             else if (commandList[0].Equals("fill_on"))
+             else if (commandList[0].Equals("fill_on"))// turn fill on 
              {
                  ShapeFill.filll(true);
              }
-             else if (commandList[0].Equals("fill_off"))
+             else if (commandList[0].Equals("fill_off"))// turn fill off
              {
                  ShapeFill.filll(false);
              }
-             else if (commandList[0].Equals("save"))
+             else if (commandList[0].Equals("save"))// save command 
              {
                  SaveFiles();
              }
-             else if (commandList[0].Equals("load"))
+             else if (commandList[0].Equals("load"))//load command
              {
                  LoadFiles();
              }
              else
              {
-                 throw new ApplicationException( "That is not a valid command");
+                 // checks for invalid commands 
+                 var lineCount = inputBox.Lines.Count();
+                 
+                 MessageBox.Show("Invalid command on line: " + lineCount, "Error",
+                     MessageBoxButtons.OK, MessageBoxIcon.Error);
              }
         }
         
