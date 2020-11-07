@@ -1,4 +1,6 @@
-﻿namespace ProgramingLanguageEnviroment
+﻿using System.Drawing;
+
+namespace ProgramingLanguageEnviroment
 {
     partial class Form1
     {
@@ -52,7 +54,7 @@
             // 
             this.inputBox.BackColor = System.Drawing.Color.Black;
             this.inputBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.inputBox.ForeColor = System.Drawing.Color.Lime;
+            this.inputBox.ForeColor = System.Drawing.Color.White;
             this.inputBox.Location = new System.Drawing.Point(33, 55);
             this.inputBox.Name = "inputBox";
             this.inputBox.Size = new System.Drawing.Size(413, 421);
@@ -64,10 +66,11 @@
             this.command_line.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.command_line.BackColor = System.Drawing.SystemColors.WindowText;
             this.command_line.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.command_line.ForeColor = System.Drawing.Color.Lime;
+            this.command_line.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.command_line.ForeColor = System.Drawing.Color.White;
             this.command_line.Location = new System.Drawing.Point(33, 523);
             this.command_line.Name = "command_line";
-            this.command_line.Size = new System.Drawing.Size(808, 13);
+            this.command_line.Size = new System.Drawing.Size(808, 97);
             this.command_line.TabIndex = 2;
             this.command_line.KeyDown += new System.Windows.Forms.KeyEventHandler(this.command_line_KeyDown);
             // 
@@ -117,7 +120,6 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize) (this.canvas)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
         }
 
         private System.Windows.Forms.RichTextBox inputBox;

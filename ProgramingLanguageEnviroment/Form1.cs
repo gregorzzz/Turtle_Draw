@@ -48,6 +48,7 @@ namespace ProgramingLanguageEnviroment
                 //extract command from command line
                 String command = command_line.Text.Trim().ToLower();
                 commandList = command.Split(' ');
+                command_line.Clear();
                 
                 // run command for executing commands in user input text area
                 if (commandList[0].Equals("run") == true)
