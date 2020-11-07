@@ -14,7 +14,8 @@ namespace FormTest
     {
 
         /// <summary>
-        /// 
+        /// Test MoveTo
+        /// Testing if xPos and yPos change
         /// </summary>
         [TestMethod]
         public void TestValidMoveToCommand()
@@ -22,18 +23,19 @@ namespace FormTest
             String draw = "moveto 100 200";
             String[] commandList;
             commandList = draw.Split(' ');
-            int xPos = 40;
-            int yPos = 40;
+            int xPos = 100;
+            int yPos = 200;
 
             MoveTo.moveTo(int.Parse(commandList[1]), int.Parse(commandList[2]));
 
-            Assert.AreEqual(100, MoveTo.xPos);
-            Assert.AreEqual(200, MoveTo.yPos);
+            Assert.AreEqual(xPos, MoveTo.xPos);
+            Assert.AreEqual(yPos, MoveTo.yPos);
 
         }
 
         /// <summary>
-        /// 
+        /// Test DrawTo
+        /// Testing if a line is drawn of given points
         /// </summary>
         [TestMethod]
         public void TestValidDrawToCommand()
@@ -44,7 +46,10 @@ namespace FormTest
             int toX = 30;
             int toY = 80;
 
-            MoveTo.moveTo(int.Parse(commandList[1]), int.Parse(commandList[2]));
+            if (commandList[0].Equals("drawto"))
+            {
+                MoveTo.moveTo(int.Parse(commandList[1]), int.Parse(commandList[2]));
+            }
 
             Assert.AreEqual(toX, MoveTo.xPos);
             Assert.AreEqual(toY, MoveTo.yPos);
@@ -52,7 +57,8 @@ namespace FormTest
         }
 
         /// <summary>
-        /// 
+        /// Test DrawTo
+        /// Testing if exception is thrown on invalid input
         /// </summary>
         [TestMethod]
         public void TestInvalidDrawToCommand()
@@ -66,9 +72,7 @@ namespace FormTest
                 if (commandList[0].Equals("drawto"))
                 {
                     MoveTo.moveTo(int.Parse(commandList[1]), int.Parse(commandList[2]));
-                    
                 }
-                
             }
             catch (IndexOutOfRangeException e)
             {
@@ -80,7 +84,8 @@ namespace FormTest
         }
 
         /// <summary>
-        /// 
+        /// Test ResetPen
+        /// Testing to see if pen goes back to its default position
         /// </summary>
         [TestMethod]
         public void TestPenResetPosition()
@@ -100,7 +105,8 @@ namespace FormTest
         }
 
         /// <summary>
-        /// 
+        /// Test PenColor
+        /// test pen colour changes by changing pens color
         /// </summary>
         [TestMethod]
         public void TestPenColorChange()
@@ -115,7 +121,23 @@ namespace FormTest
             
             Assert.AreEqual(scribble.Color, PenColor.Pen.Color);
         }
-        
+
+        /// <summary>
+        /// Test Var
+        /// testing to see if variable changes
+        /// </summary>
+        [TestMethod]
+        public void TestVar()
+        {
+            String draw = "number 10";
+            String[] commandList;
+            commandList = draw.Split(' ');
+            int val = 10;
+
+            Var._Var(int.Parse(commandList[1]));
+            
+            Assert.AreEqual(val,Var.value);
+        }
         
     }
 }
