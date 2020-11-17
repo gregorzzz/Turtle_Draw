@@ -15,13 +15,15 @@ namespace ProgramingLanguageEnviroment
     
     public partial class Form1 : Form
     {
-        private String[] commandList;
+        public String[] commandList;
         //bitmap which is draw on and displayed in picturebox 
         Bitmap OutputBitmap = new Bitmap(640, 480);
         private Circle MyCircle;
         private Rectangle MyRectangle;
         private Triangle MyTriangle;
         private DrawTo MyLine;
+        private int varVal;
+        private String variable;
         public Form1()
         {
             InitializeComponent();
@@ -227,6 +229,21 @@ namespace ProgramingLanguageEnviroment
              else if (commandList[0].Equals("load"))//load command
              {
                  LoadFiles();
+             }
+             else if (commandList[1].Equals("="))
+             {
+                 for (int i = 0; i < commandList.Length; i++)
+                 {
+                     if (commandList[i].Any(Char.IsDigit))
+                     {
+                         variable = commandList[0];
+                         varVal = int.Parse(commandList[2]);
+                         Var.setVal(commandList[0], varVal);
+                         Var.addVal();
+
+                     }
+                    
+                 }
              }
              else
              {

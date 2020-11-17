@@ -1,4 +1,9 @@
-﻿namespace ProgramingLanguageEnviroment
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Windows.Forms;
+
+namespace ProgramingLanguageEnviroment
 {
     /// <summary>
     /// Var class for variables
@@ -6,20 +11,37 @@
     /// </summary>
     public class Var
     {
+        public Form1 formm;
+        static Dictionary<string, int> dict = new Dictionary<string, int>();
+
+        public static String comm;
         public static int value;
         
-        public static void _Var(int number)
+        public static void setVal(String c, int v)
         {
-            //todo, needs implementing 
-            value = number;
-        }
+            comm = c;
+            value = v;
 
-        public static int Value
+        }
+        
+        public static void addVal()
         {
-            get
+            bool exists = dict.ContainsKey(comm);
+            if (exists)
             {
-                return Value;
+                dict.Remove(comm + value);
+            }
+            else
+            {
+                dict.Add(comm, value);
             }
         }
+        
+        
+        
+        
+        
+        
     }
 }
+
