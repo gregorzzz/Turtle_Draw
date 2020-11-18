@@ -232,17 +232,14 @@ namespace ProgramingLanguageEnviroment
              }
              else if (commandList[1].Equals("="))
              {
-                 for (int i = 0; i < commandList.Length; i++)
+                 if (commandList.Length > 2)
                  {
-                     if (commandList[i].Any(Char.IsDigit))
-                     {
-                         variable = commandList[0];
+                     variable = commandList[0];
                          varVal = int.Parse(commandList[2]);
                          Var.setVal(commandList[0], varVal);
                          Var.addVal();
+                         Var.printDictionary();
 
-                     }
-                    
                  }
              }
              else

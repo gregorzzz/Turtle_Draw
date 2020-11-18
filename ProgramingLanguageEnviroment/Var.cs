@@ -12,7 +12,7 @@ namespace ProgramingLanguageEnviroment
     public class Var
     {
         public Form1 formm;
-        static Dictionary<string, int> dict = new Dictionary<string, int>();
+        public static Dictionary<string, int> dict = new Dictionary<string, int>();
 
         public static String comm;
         public static int value;
@@ -21,6 +21,7 @@ namespace ProgramingLanguageEnviroment
         {
             comm = c;
             value = v;
+            
 
         }
         
@@ -29,18 +30,23 @@ namespace ProgramingLanguageEnviroment
             bool exists = dict.ContainsKey(comm);
             if (exists)
             {
-                dict.Remove(comm + value);
+                dict.Remove(comm);
             }
-            else
-            {
-                dict.Add(comm, value);
-            }
+         
+            dict.Add(comm, value);
+
         }
         
-        
-        
-        
-        
+        public static void printDictionary()
+      {
+        foreach (KeyValuePair<string, int> key1 in dict)
+
+        {
+            Console.WriteLine(key1.Key + " " + key1.Value);
+
+        }
+
+      }
         
     }
 }
