@@ -23,14 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/dictionaries/bspee.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +60,8 @@
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.Designer.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" />
         <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +142,9 @@
       <workItem from="1604911001353" duration="15000" />
       <workItem from="1605532396084" duration="1351000" />
       <workItem from="1605618693239" duration="10677000" />
-      <workItem from="1605711953797" duration="5735000" />
+      <workItem from="1605711953797" duration="7333000" />
+      <workItem from="1605800144383" duration="5084000" />
+      <workItem from="1605885165192" duration="4658000" />
     </task>
     <servers />
   </component>
@@ -191,106 +188,106 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502892386" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1605720825925">
+    <state width="1875" height="184" key="GridCell.Tab.0.bottom" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720825925" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1605720825925">
+    <state width="1875" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.0.center" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720825925" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1605720825925">
+    <state width="1875" height="184" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.0.left" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720825925" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1605720825925">
+    <state width="1875" height="184" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.0.right" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720825925" />
-    <state width="1875" height="389" key="GridCell.Tab.1.bottom" timestamp="1605720177248">
+    <state width="1875" height="184" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.1.bottom" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177248" />
-    <state width="1875" height="389" key="GridCell.Tab.1.center" timestamp="1605720177248">
+    <state width="1875" height="184" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.1.center" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177248" />
-    <state width="1875" height="389" key="GridCell.Tab.1.left" timestamp="1605720177248">
+    <state width="1875" height="184" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.1.left" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177248" />
-    <state width="1875" height="389" key="GridCell.Tab.1.right" timestamp="1605720177248">
+    <state width="1875" height="184" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.1.right" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177248" />
-    <state width="1875" height="389" key="GridCell.Tab.2.bottom" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.2.bottom" timestamp="1605728605633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.2.center" timestamp="1605720177248">
+    <state width="1875" height="184" key="GridCell.Tab.2.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605633" />
+    <state width="1875" height="184" key="GridCell.Tab.2.center" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177248" />
-    <state width="1875" height="389" key="GridCell.Tab.2.left" timestamp="1605720177248">
+    <state width="1875" height="184" key="GridCell.Tab.2.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.2.left" timestamp="1605728605632">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177248" />
-    <state width="1875" height="389" key="GridCell.Tab.2.right" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.2.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605632" />
+    <state width="1875" height="184" key="GridCell.Tab.2.right" timestamp="1605728605633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.3.bottom" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.2.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605633" />
+    <state width="1875" height="184" key="GridCell.Tab.3.bottom" timestamp="1605728605634">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.3.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.3.center" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.3.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605634" />
+    <state width="1875" height="184" key="GridCell.Tab.3.center" timestamp="1605728605633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.3.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.3.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.3.left" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.3.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605633" />
+    <state width="1875" height="184" key="GridCell.Tab.3.left" timestamp="1605728605633">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.3.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859912" />
-    <state width="1875" height="389" key="GridCell.Tab.3.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.3.right" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.3.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605633" />
+    <state width="1875" height="184" key="GridCell.Tab.3.right" timestamp="1605728605634">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.3.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.3.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.4.bottom" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.3.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605634" />
+    <state width="1875" height="184" key="GridCell.Tab.4.bottom" timestamp="1605728605634">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.4.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.4.center" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.4.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605634" />
+    <state width="1875" height="184" key="GridCell.Tab.4.center" timestamp="1605728605634">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.4.center/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.4.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.4.left" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.4.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605634" />
+    <state width="1875" height="184" key="GridCell.Tab.4.left" timestamp="1605728605634">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.4.left/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.4.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
-    <state width="1875" height="389" key="GridCell.Tab.4.right" timestamp="1605720177249">
+    <state width="1875" height="184" key="GridCell.Tab.4.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605634" />
+    <state width="1875" height="184" key="GridCell.Tab.4.right" timestamp="1605728605634">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="246" key="GridCell.Tab.4.right/0.0.1280.720@0.0.1280.720" timestamp="1603645859913" />
-    <state width="1875" height="389" key="GridCell.Tab.4.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605720177249" />
+    <state width="1875" height="184" key="GridCell.Tab.4.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605728605634" />
     <state x="551" y="271" key="Rider.ProjectTemplateDialog.Size" timestamp="1603374631669">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -316,137 +313,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605628331634" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1605624426376">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1605886338758">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605624426376" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605886338758" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605645531596">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="415" y="157" width="672" height="452" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1603648293843" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1605645531596" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs</url>
-          <line>236</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Form1.cs" initialLine="238">
-            <startOffsets>
-              <option value="8730" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8756" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs</url>
-          <line>238</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Form1.cs" initialLine="240">
-            <startOffsets>
-              <option value="8843" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8878" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs</url>
-          <line>239</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Form1.cs" initialLine="241">
-            <startOffsets>
-              <option value="8904" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8917" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Var.cs" initialLine="21">
-            <startOffsets>
-              <option value="526" />
-            </startOffsets>
-            <endOffsets>
-              <option value="535" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs</url>
-          <line>22</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Var.cs" initialLine="22">
-            <startOffsets>
-              <option value="548" />
-            </startOffsets>
-            <endOffsets>
-              <option value="558" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs</url>
-          <line>35</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Var.cs" initialLine="35">
-            <startOffsets>
-              <option value="797" />
-            </startOffsets>
-            <endOffsets>
-              <option value="819" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Var.cs" initialLine="32">
-            <startOffsets>
-              <option value="742" />
-            </startOffsets>
-            <endOffsets>
-              <option value="760" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs</url>
-          <line>44</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Var.cs" initialLine="44">
-            <startOffsets>
-              <option value="973" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1020" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs</url>
-          <line>240</line>
-          <properties documentPath="C:\Users\bspee\Documents\AET\ProgramingLanguageEnviroment\ProgramingLanguageEnviroment\Form1.cs" initialLine="240">
-            <startOffsets>
-              <option value="8943" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8965" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
