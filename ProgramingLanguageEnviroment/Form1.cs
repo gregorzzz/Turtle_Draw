@@ -25,6 +25,7 @@ namespace ProgramingLanguageEnviroment
         private int varVal;
         private String variable;
         private bool iloop = true;
+        private bool loop = true;
 
         //extract user input from textbox
         public String line;
@@ -141,7 +142,6 @@ namespace ProgramingLanguageEnviroment
         {
             if (iloop)
             {
-                
                 if (commandList[0].Equals("if"))
                 {
                     String value = commandList[3];
@@ -196,6 +196,60 @@ namespace ProgramingLanguageEnviroment
                 {
                     iloop = true;
                 }
+                else if (commandList[0].Equals("while"))
+                {
+                    String value = commandList[3];
+                    String compVal = commandList[2];
+                    String varbVal = commandList[1];
+                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    {
+                        if (opp.Key.Equals(varbVal))
+                        {
+                            if (compVal.Equals("="))
+                            {
+                                if (opp.Value == int.Parse(value))
+                                {
+                                    iloop = true;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+
+                            if (compVal.Equals(">"))
+                            {
+                                if (opp.Value > int.Parse(value))
+                                {
+                                    iloop = true;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+
+                            if (compVal.Equals("<"))
+                            {
+                                if (opp.Value < int.Parse(value))
+                                {
+                                    iloop = true;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+
+                            }
+
+                        }
+                    }
+
+                }
+                else if (commandList[0].Equals("endloop"))
+                {
+                    iloop = true;
+                }
                 else if (commandList[0].Equals("drawto") == true) // drawto command
                 {
                     if (commandList.Length != 3) // checks for incorrect amount of values
@@ -215,9 +269,17 @@ namespace ProgramingLanguageEnviroment
                         MessageBox.Show("Wrong amount of values.\nExample: rectangle 50,50", "Error",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                    else
+
+                    foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
-                        MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        if (commandList.Contains(opp.Key))
+                        {
+                            MyRectangle.DrawSquare(opp.Value, opp.Value);
+                        }
+                        else
+                        {
+                            MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        }
                     }
 
                 }
@@ -230,7 +292,17 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        MyCircle.DrawCircle(Int32.Parse(commandList[1]));
+                        foreach (KeyValuePair<string, int> opp in Var.dict)
+                        {
+                            if(commandList.Contains(opp.Key))
+                            {
+                                MyCircle.DrawCircle(opp.Value);
+                            }
+                            
+                        }
+                        
+                        MyCircle.DrawCircle(int.Parse(commandList[1]));
+
                     }
 
 
@@ -319,7 +391,11 @@ namespace ProgramingLanguageEnviroment
                 {
                     iloop = true;
                 }
+                
             }
+                
+            
+            
         }
         
         /// <summary>
