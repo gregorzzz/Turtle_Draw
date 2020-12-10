@@ -25,11 +25,6 @@
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +145,7 @@
       <workItem from="1605800144383" duration="5084000" />
       <workItem from="1605885165192" duration="5078000" />
       <workItem from="1607425836906" duration="12733000" />
-      <workItem from="1607600544122" duration="9360000" />
+      <workItem from="1607600544122" duration="16032000" />
     </task>
     <servers />
   </component>
@@ -194,26 +189,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502892386" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1607610006574">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1607620064671">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607610006574" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1607610006574">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607620064671" />
+    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1607620064671">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607610006574" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1607610006574">
+    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607620064671" />
+    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1607620064671">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607610006574" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1607610006574">
+    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607620064671" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1607620064671">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607610006574" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607620064671" />
     <state width="1875" height="184" key="GridCell.Tab.1.bottom" timestamp="1607455290948">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -323,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607438540366" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1607610961222">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1607619817999">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="415" y="157" width="672" height="452" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1603648293843" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607610961222" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607619817999" />
   </component>
 </project>

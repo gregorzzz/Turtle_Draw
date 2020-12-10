@@ -25,8 +25,16 @@ namespace ProgramingLanguageEnviroment
         private int varVal;
         private String variable;
         private bool iloop = true;
-        public String[] LoopArray;
+        public int[] LoopArray;
         private int loopNum;
+        private String lineComm;
+        String LoopVal;
+        String LoopComp;
+        String LoopVar;
+        int LoopVarVal;
+        private int LoopStart = 1;
+        private int LoopEnd = 0;
+
 
         //extract user input from textbox
         public String line;
@@ -142,7 +150,7 @@ namespace ProgramingLanguageEnviroment
             for (int start = LoopStart; start < LoopEnd; start++)
             {
                 lineComm = LoopArray[start].ToString();
-                CommandSplit = line.Split(' ');
+                commandList = line.Split(' ');
                 loopNum = start;
                 drawShape();
             }
@@ -151,7 +159,7 @@ namespace ProgramingLanguageEnviroment
             {
                 if (opp.Key.Equals(LoopVar))
                 {
-                    LoopVal = opp.Value;
+                    LoopVarVal = opp.Value;
                 }
             }
         }
@@ -207,12 +215,9 @@ namespace ProgramingLanguageEnviroment
                                 {
                                     iloop = false;
                                 }
-
                             }
-
                         }
                     }
-
                 }
                 else if (commandList[0].Equals("endif"))
                 {
@@ -220,49 +225,48 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("while"))
                 {
-                    String LoopVal = commandList[3];
-                    String LoopComp = commandList[2];
-                    String LoopVar = commandList[1];
+                    LoopVal = commandList[3];
+                    LoopComp = commandList[2];
+                    LoopVar = commandList[1];
 
                     if (LoopComp.Equals("=="))
                     {
-                        while (LoopVar == LoopVal)
+                        while (LoopVarVal == LoopVal)
                         {
                             Loop();
                         }
                     }
-                    
+
                     else if (LoopComp.Equals(">"))
                     {
-                        while (LoopVar > LoopVal)
+                        while (LoopVarVal > LoopVal)
                         {
                             Loop();
                         }
                     }
-                    
+
                     else if (LoopComp.Equals("<"))
                     {
-                        while (LoopVar < LoopVal)
+                        while (LoopVarVal < LoopVal)
                         {
                             Loop();
                         }
                     }
-                    
+
                     else if (LoopComp.Equals("<="))
                     {
-                        while (LoopVar <= LoopVal)
+                        while (LoopVarVal <= LoopVal)
                         {
                             Loop();
                         }
                     }
                     else if (LoopComp.Equals(">="))
                     {
-                        while (LoopVar >= LoopVal)
+                        while (LoopVarVal >= LoopVal)
                         {
                             Loop();
                         }
                     }
-
                 }
                 else if (commandList[0].Equals("endloop"))
                 {
@@ -289,8 +293,8 @@ namespace ProgramingLanguageEnviroment
                                 commandList[2] = opp.Value.ToString();
                             }
                             
-                            MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                         }
+                        MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                 }
                 else if (commandList[0].Equals("rectangle") == true) // rectangle command 
@@ -313,8 +317,8 @@ namespace ProgramingLanguageEnviroment
                             {
                                 commandList[2] = opp.Value.ToString();
                             }
-                            MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                         }
+                        MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                 }
                 else if (commandList[0].Equals("circle") == true) // circle command 
@@ -357,8 +361,8 @@ namespace ProgramingLanguageEnviroment
                                 commandList[2] = opp.Value.ToString();
                             }
                             
-                            MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                         }
+                        MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                 }
                 else if (commandList[0].Equals("triangle") == true) // triangle command
@@ -392,9 +396,9 @@ namespace ProgramingLanguageEnviroment
                                 commandList[4] = opp.Value.ToString();
                             }
                             
-                            MyTriangle.DrawTriangle(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
-                                Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
                         }
+                        MyTriangle.DrawTriangle(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
+                            Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
                     }
                 }
                 else if (commandList[0].Equals("clear") == true) // clear command 
