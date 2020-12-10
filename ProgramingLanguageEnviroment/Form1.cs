@@ -25,7 +25,8 @@ namespace ProgramingLanguageEnviroment
         private int varVal;
         private String variable;
         private bool iloop = true;
-        private bool loop = true;
+        public String[] LoopArray;
+        private int loopNum;
 
         //extract user input from textbox
         public String line;
@@ -68,6 +69,7 @@ namespace ProgramingLanguageEnviroment
                     }
                 }
                 drawShape();
+                Loop();
                 Refresh();
             }
         }
@@ -135,6 +137,26 @@ namespace ProgramingLanguageEnviroment
             }
         }
 
+        public void Loop()
+        {
+            for (int start = LoopStart; start < LoopEnd; start++)
+            {
+                lineComm = LoopArray[start].ToString();
+                CommandSplit = line.Split(' ');
+                loopNum = start;
+                drawShape();
+            }
+
+            foreach (KeyValuePair<string, int> opp in Var.dict)
+            {
+                if (opp.Key.Equals(LoopVar))
+                {
+                    LoopVal = opp.Value;
+                }
+            }
+        }
+        
+
         /// <summary>
         /// method drawShape handles running commands
         /// </summary>
@@ -198,50 +220,46 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("while"))
                 {
-                    String value = commandList[3];
-                    String compVal = commandList[2];
-                    String varbVal = commandList[1];
-                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    String LoopVal = commandList[3];
+                    String LoopComp = commandList[2];
+                    String LoopVar = commandList[1];
+
+                    if (LoopComp.Equals("=="))
                     {
-                        if (opp.Key.Equals(varbVal))
+                        while (LoopVar == LoopVal)
                         {
-                            if (compVal.Equals("="))
-                            {
-                                if (opp.Value == int.Parse(value))
-                                {
-                                    iloop = true;
-                                }
-                                else
-                                {
-                                    iloop = false;
-                                }
-                            }
-
-                            if (compVal.Equals(">"))
-                            {
-                                if (opp.Value > int.Parse(value))
-                                {
-                                    iloop = true;
-                                }
-                                else
-                                {
-                                    iloop = false;
-                                }
-                            }
-
-                            if (compVal.Equals("<"))
-                            {
-                                if (opp.Value < int.Parse(value))
-                                {
-                                    iloop = true;
-                                }
-                                else
-                                {
-                                    iloop = false;
-                                }
-
-                            }
-
+                            Loop();
+                        }
+                    }
+                    
+                    else if (LoopComp.Equals(">"))
+                    {
+                        while (LoopVar > LoopVal)
+                        {
+                            Loop();
+                        }
+                    }
+                    
+                    else if (LoopComp.Equals("<"))
+                    {
+                        while (LoopVar < LoopVal)
+                        {
+                            Loop();
+                        }
+                    }
+                    
+                    else if (LoopComp.Equals("<="))
+                    {
+                        while (LoopVar <= LoopVal)
+                        {
+                            Loop();
+                        }
+                    }
+                    else if (LoopComp.Equals(">="))
+                    {
+                        while (LoopVar >= LoopVal)
+                        {
+                            Loop();
                         }
                     }
 
@@ -310,7 +328,7 @@ namespace ProgramingLanguageEnviroment
                     {
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
-                            if(commandList[1].Contains(opp.Key))
+                            if(commandList.Contains(opp.Key))
                             {
                                 commandList[1] = opp.Value.ToString();
                             }
@@ -421,6 +439,19 @@ namespace ProgramingLanguageEnviroment
 
                     }
                 }
+                else if(commandList[1].Equals("+"))
+                {
+                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    {
+                        commandList[2] = opp.Value + commandList[2];
+                        
+                    }
+                    variable = commandList[0];
+                    varVal = int.Parse(commandList[2]);
+                    Var.setVal(commandList[0], varVal);
+                    Var.addVal();
+                    
+                }
                 else
                 {
                     // checks for invalid commands 
@@ -436,7 +467,7 @@ namespace ProgramingLanguageEnviroment
                 {
                     iloop = true;
                 }
-                
+
             }
                 
             

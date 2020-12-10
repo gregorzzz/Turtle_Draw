@@ -42,7 +42,7 @@ namespace ProgramingLanguageEnviroment
         foreach (KeyValuePair<string, int> key1 in dict)
 
         {
-            Console.WriteLine(key1.Key + " " + key1.Value);
+            Console.WriteLine(key1.Key + key1.Value);
 
         }
 
