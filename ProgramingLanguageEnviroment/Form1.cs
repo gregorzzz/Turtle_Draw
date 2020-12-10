@@ -259,7 +259,20 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        foreach (KeyValuePair<string, int> opp in Var.dict)
+                        {
+                            if (commandList[1].Contains(opp.Key))
+                            {
+                                commandList[1] = opp.Value.ToString();
+                            }
+
+                            if (commandList[2].Contains(opp.Key))
+                            {
+                                commandList[2] = opp.Value.ToString();
+                            }
+                            
+                            MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        }
                     }
                 }
                 else if (commandList[0].Equals("rectangle") == true) // rectangle command 
@@ -269,19 +282,22 @@ namespace ProgramingLanguageEnviroment
                         MessageBox.Show("Wrong amount of values.\nExample: rectangle 50,50", "Error",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-
-                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    else
                     {
-                        if (commandList.Contains(opp.Key))
+                        foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
-                            MyRectangle.DrawSquare(opp.Value, opp.Value);
-                        }
-                        else
-                        {
+                            if (commandList[1].Contains(opp.Key))
+                            {
+                                commandList[1] = opp.Value.ToString();
+                            }
+
+                            if (commandList[2].Contains(opp.Key))
+                            {
+                                commandList[2] = opp.Value.ToString();
+                            }
                             MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                         }
                     }
-
                 }
                 else if (commandList[0].Equals("circle") == true) // circle command 
                 {
@@ -294,18 +310,13 @@ namespace ProgramingLanguageEnviroment
                     {
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
-                            if(commandList.Contains(opp.Key))
+                            if(commandList[1].Contains(opp.Key))
                             {
-                                MyCircle.DrawCircle(opp.Value);
+                                commandList[1] = opp.Value.ToString();
                             }
-                            
                         }
-                        
                         MyCircle.DrawCircle(int.Parse(commandList[1]));
-
                     }
-
-
                 }
                 else if (commandList[0].Equals("moveto") == true) // moveto command 
                 {
@@ -316,9 +327,21 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
-                    }
+                        foreach (KeyValuePair<string, int> opp in Var.dict)
+                        {
+                            if (commandList[1].Contains(opp.Key))
+                            {
+                                commandList[1] = opp.Value.ToString();
+                            }
 
+                            if (commandList[2].Contains(opp.Key))
+                            {
+                                commandList[2] = opp.Value.ToString();
+                            }
+                            
+                            MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        }
+                    }
                 }
                 else if (commandList[0].Equals("triangle") == true) // triangle command
                 {
@@ -329,10 +352,32 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        MyTriangle.DrawTriangle(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
-                            Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
-                    }
+                        foreach (KeyValuePair<string, int> opp in Var.dict)
+                        {
+                            if (commandList[1].Contains(opp.Key))
+                            {
+                                commandList[1] = opp.Value.ToString();
+                            }
 
+                            if (commandList[2].Contains(opp.Key))
+                            {
+                                commandList[2] = opp.Value.ToString();
+                            }
+                            
+                            if (commandList[3].Contains(opp.Key))
+                            {
+                                commandList[3] = opp.Value.ToString();
+                            }
+                            
+                            if (commandList[4].Contains(opp.Key))
+                            {
+                                commandList[4] = opp.Value.ToString();
+                            }
+                            
+                            MyTriangle.DrawTriangle(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
+                                Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+                        }
+                    }
                 }
                 else if (commandList[0].Equals("clear") == true) // clear command 
                 {
