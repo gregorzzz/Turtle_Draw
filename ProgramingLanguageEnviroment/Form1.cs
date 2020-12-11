@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,15 +26,18 @@ namespace ProgramingLanguageEnviroment
         private int varVal;
         private String variable;
         private bool iloop = true;
-        public int[] LoopArray;
+        ArrayList LoopArray = new ArrayList();
         private int loopNum;
         private String lineComm;
-        int LoopVal;
-        String LoopComp;
-        String LoopVar;
-        int LoopVarVal;
-        private int LoopStart = 1;
-        private int LoopEnd = 0;
+        public int LoopVal;
+        public String LoopComp;
+        public String LoopVar;
+        public int LoopVarVal;
+        private int LoopStart;
+        private int LoopEnd;
+        private int lineInt;
+        private bool looper = true;
+
 
 
         //extract user input from textbox
@@ -57,12 +61,12 @@ namespace ProgramingLanguageEnviroment
         {
             if (e.KeyCode == Keys.Enter)
             {
-
                 line = inputBox.Text;
                 //extract command from command line
                 String command = command_line.Text.Trim().ToLower();
                 commandList = command.Split(',',' ');
                 command_line.Clear();
+                LoopArray=new ArrayList();
 
                 // run command for executing commands in user input text area
                 if (commandList[0].Equals("run") == true)
@@ -71,13 +75,21 @@ namespace ProgramingLanguageEnviroment
                     {
                         while ((line = reader.ReadLine()) !=null)
                         {
-                            commandList =line.Split(' ',',');
+                            LoopArray.Add(line);
+                        }
+
+                        loopNum = 0;
+                        for (int i = 0; i < LoopArray.Count; i++)
+                        {
+                            line = LoopArray[i].ToString();
+                            commandList = line.Split(' ',',');
+                            loopNum = i;
                             drawShape();
                         }
+                        
                     }
                 }
                 drawShape();
-                Loop();
                 Refresh();
             }
         }
@@ -186,6 +198,7 @@ namespace ProgramingLanguageEnviroment
                                 if (opp.Value == int.Parse(value))
                                 {
                                     iloop = true;
+                                    
                                 }
                                 else
                                 {
@@ -216,6 +229,7 @@ namespace ProgramingLanguageEnviroment
                                     iloop = false;
                                 }
                             }
+                            
                         }
                     }
                 }
@@ -225,11 +239,95 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("while"))
                 {
-                    LoopVal = Int32.Parse(commandList[3]);
+                    LoopVal = int.Parse(commandList[3]);
                     LoopComp = commandList[2];
                     LoopVar = commandList[1];
                     
+                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    {
+                        if (opp.Key.Equals(LoopVar))
+                        {
+                            LoopVarVal = opp.Value;
+                            
+                            if (LoopComp.Equals("=="))
+                            {
+                                if (opp.Value == LoopVal)
+                                {
+                                    iloop = true;
+                                    LoopStart = loopNum;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
 
+                            if (LoopComp.Equals(">"))
+                            {
+                                if (opp.Value > LoopVal)
+                                {
+                                    iloop = true;
+                                    LoopStart = loopNum;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+
+                            if (LoopComp.Equals("<"))
+                            {
+                                if (opp.Value < LoopVal)
+                                {
+                                    iloop = true;
+                                    LoopStart = loopNum;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+                            
+                            if (LoopComp.Equals("<="))
+                            {
+                                if (opp.Value < LoopVal)
+                                {
+                                    iloop = true;
+                                    LoopStart = loopNum;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+                            if (LoopComp.Equals(">="))
+                            {
+                                if (opp.Value < LoopVal)
+                                {
+                                    iloop = true;
+                                    LoopStart = loopNum;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                else if (commandList[0].Equals("endwhile"))
+                {
+                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    {
+                        if (opp.Key.Equals(LoopVar))
+                        {
+                            LoopVarVal = opp.Value;
+                        }
+                    }
+                    LoopStart++;
+                    LoopEnd = loopNum;
+                    
                     if (LoopComp.Equals("=="))
                     {
                         while (LoopVarVal == LoopVal)
@@ -269,12 +367,6 @@ namespace ProgramingLanguageEnviroment
                         }
                     }
                 }
-                else if (commandList[0].Equals("endloop"))
-                {
-                    LoopEnd = 2;
-                    loopNum = LoopEnd;
-                }
-                
                 else if (commandList[0].Equals("drawto") == true) // drawto command
                 {
                     if (commandList.Length != 3) // checks for incorrect amount of values
@@ -467,6 +559,10 @@ namespace ProgramingLanguageEnviroment
                 {
                     iloop = true;
                 }
+                else if (commandList[0].Equals("endwhile"))
+                {
+                    iloop = true;
+                }
 
             }
                 
@@ -482,12 +578,20 @@ namespace ProgramingLanguageEnviroment
         private void runButton_Click(object sender, EventArgs e)
         {
             String line = inputBox.Text;
-            
+            LoopArray=new ArrayList();
+
             using (StringReader reader = new StringReader(inputBox.Text))
             {
                 while ((line = reader.ReadLine()) !=null)
                 {
-                    commandList =line.Split(' ',',');
+                    LoopArray.Add(line);
+                }
+              
+                for (int i = 0; i < LoopArray.Count; i++)
+                {
+                    line = LoopArray[i].ToString();
+                    commandList = line.Split(' ',',');
+                    loopNum = i;
                     drawShape();
                 }
             }
