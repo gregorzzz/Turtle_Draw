@@ -28,7 +28,7 @@ namespace ProgramingLanguageEnviroment
         public int[] LoopArray;
         private int loopNum;
         private String lineComm;
-        String LoopVal;
+        int LoopVal;
         String LoopComp;
         String LoopVar;
         int LoopVarVal;
@@ -149,7 +149,7 @@ namespace ProgramingLanguageEnviroment
         {
             for (int start = LoopStart; start < LoopEnd; start++)
             {
-                lineComm = LoopArray[start].ToString();
+                line = LoopArray[start].ToString();
                 commandList = line.Split(' ');
                 loopNum = start;
                 drawShape();
@@ -225,9 +225,10 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("while"))
                 {
-                    LoopVal = commandList[3];
+                    LoopVal = Int32.Parse(commandList[3]);
                     LoopComp = commandList[2];
                     LoopVar = commandList[1];
+                    
 
                     if (LoopComp.Equals("=="))
                     {
@@ -270,8 +271,10 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[0].Equals("endloop"))
                 {
-                    iloop = true;
+                    LoopEnd = 2;
+                    loopNum = LoopEnd;
                 }
+                
                 else if (commandList[0].Equals("drawto") == true) // drawto command
                 {
                     if (commandList.Length != 3) // checks for incorrect amount of values
@@ -433,29 +436,22 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[1].Equals("="))
                 {
-                    if (commandList.Length > 2)
-                    {
-                        variable = commandList[0];
-                        varVal = int.Parse(commandList[2]);
-                        Var.setVal(commandList[0], varVal);
-                        Var.addVal();
-                        Var.printDictionary();
-
-                    }
-                }
-                else if(commandList[1].Equals("+"))
-                {
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
-                        commandList[2] = opp.Value + commandList[2];
-                        
+                        if (commandList[2].Contains(opp.Key))
+                        {
+                            commandList[2] = (opp.Value + int.Parse(commandList[4])).ToString();
+                        }
                     }
+                    
                     variable = commandList[0];
                     varVal = int.Parse(commandList[2]);
                     Var.setVal(commandList[0], varVal);
                     Var.addVal();
+                    Var.printDictionary();
                     
                 }
+
                 else
                 {
                     // checks for invalid commands 

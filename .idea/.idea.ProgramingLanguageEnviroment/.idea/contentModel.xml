@@ -30,6 +30,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Circle.cs" t="Include" />
         <e p="DrawTo.cs" t="Include" />
+        <e p="Factory.cs" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
