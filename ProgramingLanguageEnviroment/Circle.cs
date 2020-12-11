@@ -5,7 +5,7 @@ namespace ProgramingLanguageEnviroment
     /// <summary>
     /// Circle class holds information that is displayed on the form when command is triggered
     /// </summary>
-    public class Circle
+   public class Circle
     {
         public Graphics g;
         public ShapeFill filler;
