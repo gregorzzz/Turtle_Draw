@@ -48,6 +48,7 @@
     <ItemGroup>
         <Compile Include="Circle.cs" />
         <Compile Include="DrawTo.cs" />
+        <Compile Include="Factory.cs" />
         <Compile Include="Form1.cs">
             <SubType>Form</SubType>
         </Compile>
@@ -61,8 +62,8 @@
         <Compile Include="Rectangle.cs" />
         <Compile Include="ResetPen.cs" />
         <Compile Include="Shape.cs" />
-        <Compile Include="ShapeFactpry.cs" />
         <Compile Include="ShapeFill.cs" />
+        <Compile Include="Shapes.cs" />
         <Compile Include="Triangle.cs" />
         <Compile Include="Var.cs" />
         <EmbeddedResource Include="Form1.resx">

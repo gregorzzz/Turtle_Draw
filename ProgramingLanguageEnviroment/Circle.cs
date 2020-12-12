@@ -5,33 +5,40 @@ namespace ProgramingLanguageEnviroment
     /// <summary>
     /// Circle class holds information that is displayed on the form when command is triggered
     /// </summary>
-   public class Circle
+   class Circle:Shapes
     {
-        public Graphics g;
-        public ShapeFill filler;
-        public PenColor colour;
-        public int xPos, yPos;
+        int radius;
+        public PenColor colour; 
+        
+        public Circle() : base()
+        {
+        }
         
         /// <summary>
         /// Constructor initialises Triangle to Pen or ShapeFill 
         /// </summary>
         /// <param name="g">Graphics place to draw on</param>
-        public Circle(Graphics g)
+        public Circle (int radius) : base()
         {
-            this.g = g;
-            xPos = yPos = 0;
-            filler = new ShapeFill();//triggers fill on or off 
-            ShapeFill.fill = false;
-            colour = new PenColor();
-            PenColor.Pen = new Pen(Color.Black, 1);//default pen
+            this.radius = radius;
+        }
+        
+        public override void set(params int[] list)
+        {
+            base.set();
+            this.radius = list[0];
+            
         }
 
         /// <summary>
         /// Draws a circle of defined size
         /// </summary>
         /// <param name="radius">length from center to outside edge </param>
-        public void DrawCircle(float radius)
+        public override void Draw(Graphics g)
         {
+            ShapeFill.fill = false;
+            colour = new PenColor();
+            PenColor.Pen = new Pen(Color.Black, 1);
             //draws circle from given points
             g.DrawEllipse(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
             
@@ -43,5 +50,11 @@ namespace ProgramingLanguageEnviroment
                 }
             }
         }
+        
+        public override string ToString() //all classes inherit from object and ToString() is abstract in object
+        {
+            return base.ToString()+ "  "+this.radius;
+        }
+        
     }
 }

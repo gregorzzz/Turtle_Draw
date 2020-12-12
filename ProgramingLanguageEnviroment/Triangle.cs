@@ -6,23 +6,36 @@ namespace ProgramingLanguageEnviroment
     /// <summary>
     /// Triangle class holds information that is displayed on the form when command is triggered
     /// </summary>
-    public class Triangle
+    public class Triangle:Shapes
     {
-        public Graphics g;
-        public ShapeFill filler;
-        public PenColor colour;
+        int x;
+        int y;
+        int distance; 
+        float angle;
 
+        public Triangle() : base()
+        {
+        }
+        
         /// <summary>
         /// Constructor initialises Triangle to Pen or ShapeFill 
         /// </summary>
         /// <param name="g">Graphics place to draw on</param>
-        public Triangle (Graphics g)
+        public Triangle (int x, int y, int distance, float angle) : base()
         {
-            this.g = g;
-            filler = new ShapeFill();//triggers fill on or off 
-            ShapeFill.fill = false;
-            colour = new PenColor();
-            PenColor.Pen = new Pen(Color.Black, 1);//default pen
+            this.x = x;
+            this.y = y;
+            this.distance = distance;
+            this.angle = angle;
+        }
+
+        public override void set(params int[] list)
+        {
+            base.set();
+            this.x = list[0];
+            this.y = list[1];
+            this.distance = list[2];
+            this.angle = list[3];
         }
         
         /// <summary>
@@ -32,8 +45,11 @@ namespace ProgramingLanguageEnviroment
         /// <param name="y">one side of triangle</param>
         /// <param name="distance">the length between points x and y</param>
         /// <param name="angle">angle of which to draw triangle at</param>
-        public void DrawTriangle(int x, int y, int distance, float angle)
+        public override  void Draw(Graphics g)
         {
+            ShapeFill.fill = false;
+         
+            PenColor.Pen = new Pen(Color.Black, 1);//default pen
             //calculates triangle points and angle 
             PointF[] pnt = new PointF[3];
             pnt[0].X = x;

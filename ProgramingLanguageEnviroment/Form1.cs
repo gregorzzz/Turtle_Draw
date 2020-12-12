@@ -13,15 +13,17 @@ using System.Windows.Forms;
 
 namespace ProgramingLanguageEnviroment
 {
-    
+
     public partial class Form1 : Form
     {
         public String[] commandList;
+
         //bitmap which is draw on and displayed in picturebox 
         Bitmap OutputBitmap = new Bitmap(640, 480);
         private Circle MyCircle;
         private Rectangle MyRectangle;
         private Triangle MyTriangle;
+        private Factory factory;
         private DrawTo MyLine;
         private int varVal;
         private String variable;
@@ -37,43 +39,60 @@ namespace ProgramingLanguageEnviroment
         private int LoopEnd;
         private int lineInt;
         private bool looper = true;
+        ArrayList shapes = new ArrayList();
+        Shape s;
 
 
 
         //extract user input from textbox
         public String line;
+
         public Form1()
         {
             InitializeComponent();
-            MyCircle = new Circle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of circle 
-            MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of rectangle
-            MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of Triangle 
-            MyLine = new DrawTo(Graphics.FromImage(OutputBitmap));//class for handling the drawing of a line to move the pen 
-            
-            
+            factory = new Factory();
+            try
+            {
+                shapes.Add(factory.getCommand("circle"));
+                shapes.Add(factory.getCommand("rectangle"));
+                shapes.Add(factory.getCommand("triangle"));
+            }
+            catch (ArgumentException e)
+            {
+
+            }
+
+            // MyCircle = new Circle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of circle 
+            //MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap)); //class for handling the drawing of rectangle
+            //MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap)); //class for handling the drawing of Triangle 
+            MyLine = new DrawTo(
+                Graphics.FromImage(OutputBitmap)); //class for handling the drawing of a line to move the pen 
+
+
         }
+
         /// <summary>
         /// Method for handling and triggering commands
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void command_line_KeyDown(object sender, KeyEventArgs e)
+         void command_line_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
                 line = inputBox.Text;
                 //extract command from command line
                 String command = command_line.Text.Trim().ToLower();
-                commandList = command.Split(',',' ');
+                commandList = command.Split(',', ' ');
                 command_line.Clear();
-                LoopArray=new ArrayList();
+                LoopArray = new ArrayList();
 
                 // run command for executing commands in user input text area
                 if (commandList[0].Equals("run") == true)
                 {
                     using (StringReader reader = new StringReader(inputBox.Text))
                     {
-                        while ((line = reader.ReadLine()) !=null)
+                        while ((line = reader.ReadLine()) != null)
                         {
                             LoopArray.Add(line);
                         }
@@ -82,13 +101,14 @@ namespace ProgramingLanguageEnviroment
                         for (int i = 0; i < LoopArray.Count; i++)
                         {
                             line = LoopArray[i].ToString();
-                            commandList = line.Split(' ',',');
+                            commandList = line.Split(' ', ',');
                             loopNum = i;
                             drawShape();
                         }
-                        
+
                     }
                 }
+
                 drawShape();
                 Refresh();
             }
@@ -99,26 +119,39 @@ namespace ProgramingLanguageEnviroment
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void pictureBox1_Paint(object sender, PaintEventArgs e)
+         void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
-            g.DrawImageUnscaled(OutputBitmap,0,0);
+            g.DrawImageUnscaled(OutputBitmap, 0, 0);
+
+            for (int i = 0; i < shapes.Count; i++)
+            {
+                Shape s;
+                s = (Shape) shapes[i];
+                if (s != null)
+                {
+                    s.Draw(g);
+                }
+                
+            }
+            
+            
         }
 
         /// <summary>
         /// method for clearing bitmap
         /// </summary>
-        public void ClearImage()
+        void ClearImage()
         {
             Graphics myGraphics = Graphics.FromImage(OutputBitmap);
             myGraphics.Clear(Color.White);
-            
+
         }
 
         /// <summary>
         /// method ResetPos resets pen position
         /// </summary>
-        public void ResetPos()
+         void ResetPos()
         {
             ResetPen.resetPen(0, 0);
         }
@@ -126,14 +159,14 @@ namespace ProgramingLanguageEnviroment
         /// <summary>
         /// method SaveFiles saves text from input box uses dialog 
         /// </summary>
-        public void SaveFiles()
+         void SaveFiles()
         {
             SaveFileDialog saveFileBox = new SaveFileDialog();
 
             saveFileBox.DefaultExt = "*.txt";
             saveFileBox.Filter = "Text Document|*.txt";
 
-            if (saveFileBox.ShowDialog() == System.Windows.Forms.DialogResult.OK && 
+            if (saveFileBox.ShowDialog() == System.Windows.Forms.DialogResult.OK &&
                 saveFileBox.FileName.Length > 0)
             {
                 inputBox.SaveFile(saveFileBox.FileName, RichTextBoxStreamType.PlainText);
@@ -143,7 +176,7 @@ namespace ProgramingLanguageEnviroment
         /// <summary>
         /// method LoadFiles loads text to input box uses dialog  
         /// </summary>
-        public void LoadFiles()
+        void LoadFiles()
         {
             OpenFileDialog loadFileBox = new OpenFileDialog();
 
@@ -157,7 +190,7 @@ namespace ProgramingLanguageEnviroment
             }
         }
 
-        public void Loop()
+         void Loop()
         {
             for (int start = LoopStart; start < LoopEnd; start++)
             {
@@ -175,13 +208,15 @@ namespace ProgramingLanguageEnviroment
                 }
             }
         }
-        
+
 
         /// <summary>
         /// method drawShape handles running commands
         /// </summary>
-        public void drawShape()
+        void drawShape()
         {
+
+
             if (iloop)
             {
                 if (commandList[0].Equals("if"))
@@ -198,7 +233,7 @@ namespace ProgramingLanguageEnviroment
                                 if (opp.Value == int.Parse(value))
                                 {
                                     iloop = true;
-                                    
+
                                 }
                                 else
                                 {
@@ -229,7 +264,7 @@ namespace ProgramingLanguageEnviroment
                                     iloop = false;
                                 }
                             }
-                            
+
                         }
                     }
                 }
@@ -242,13 +277,13 @@ namespace ProgramingLanguageEnviroment
                     LoopVal = int.Parse(commandList[3]);
                     LoopComp = commandList[2];
                     LoopVar = commandList[1];
-                    
+
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
                         if (opp.Key.Equals(LoopVar))
                         {
                             LoopVarVal = opp.Value;
-                            
+
                             if (LoopComp.Equals("=="))
                             {
                                 if (opp.Value == LoopVal)
@@ -287,7 +322,7 @@ namespace ProgramingLanguageEnviroment
                                     iloop = false;
                                 }
                             }
-                            
+
                             if (LoopComp.Equals("<="))
                             {
                                 if (opp.Value < LoopVal)
@@ -300,6 +335,7 @@ namespace ProgramingLanguageEnviroment
                                     iloop = false;
                                 }
                             }
+
                             if (LoopComp.Equals(">="))
                             {
                                 if (opp.Value < LoopVal)
@@ -314,7 +350,7 @@ namespace ProgramingLanguageEnviroment
                             }
                         }
                     }
-                    
+
                 }
                 else if (commandList[0].Equals("endwhile"))
                 {
@@ -325,9 +361,10 @@ namespace ProgramingLanguageEnviroment
                             LoopVarVal = opp.Value;
                         }
                     }
+
                     LoopStart++;
                     LoopEnd = loopNum;
-                    
+
                     if (LoopComp.Equals("=="))
                     {
                         while (LoopVarVal == LoopVal)
@@ -387,8 +424,9 @@ namespace ProgramingLanguageEnviroment
                             {
                                 commandList[2] = opp.Value.ToString();
                             }
-                            
+
                         }
+
                         MyLine.DrawLine(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                 }
@@ -413,7 +451,10 @@ namespace ProgramingLanguageEnviroment
                                 commandList[2] = opp.Value.ToString();
                             }
                         }
-                        MyRectangle.DrawSquare(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        s = factory.getCommand("rectangle");
+                        s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        shapes.Add(s);
+                        
                     }
                 }
                 else if (commandList[0].Equals("circle") == true) // circle command 
@@ -427,12 +468,16 @@ namespace ProgramingLanguageEnviroment
                     {
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
-                            if(commandList.Contains(opp.Key))
+                            if (commandList.Contains(opp.Key))
                             {
                                 commandList[1] = opp.Value.ToString();
                             }
                         }
-                        MyCircle.DrawCircle(int.Parse(commandList[1]));
+                        //MyCircle.DrawCircle(int.Parse(commandList[1]));
+                        s = factory.getCommand("circle");
+                        s.set(Int32.Parse(commandList[1]));
+                        shapes.Add(s);
+
                     }
                 }
                 else if (commandList[0].Equals("moveto") == true) // moveto command 
@@ -455,8 +500,9 @@ namespace ProgramingLanguageEnviroment
                             {
                                 commandList[2] = opp.Value.ToString();
                             }
-                            
+
                         }
+
                         MoveTo.moveTo(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                     }
                 }
@@ -480,20 +526,23 @@ namespace ProgramingLanguageEnviroment
                             {
                                 commandList[2] = opp.Value.ToString();
                             }
-                            
+
                             if (commandList[3].Contains(opp.Key))
                             {
                                 commandList[3] = opp.Value.ToString();
                             }
-                            
+
                             if (commandList[4].Contains(opp.Key))
                             {
                                 commandList[4] = opp.Value.ToString();
                             }
-                            
+
                         }
-                        MyTriangle.DrawTriangle(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
+                        s = factory.getCommand("triangle");
+                        s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
                             Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+                        shapes.Add(s);
+                        
                     }
                 }
                 else if (commandList[0].Equals("clear") == true) // clear command 
@@ -535,13 +584,13 @@ namespace ProgramingLanguageEnviroment
                             commandList[2] = (opp.Value + int.Parse(commandList[4])).ToString();
                         }
                     }
-                    
+
                     variable = commandList[0];
                     varVal = int.Parse(commandList[2]);
                     Var.setVal(commandList[0], varVal);
                     Var.addVal();
                     Var.printDictionary();
-                    
+
                 }
 
                 else
@@ -565,11 +614,11 @@ namespace ProgramingLanguageEnviroment
                 }
 
             }
-                
-            
-            
+
+
+
         }
-        
+
         /// <summary>
         /// button to run commands form inputbox
         /// </summary>
@@ -578,25 +627,26 @@ namespace ProgramingLanguageEnviroment
         private void runButton_Click(object sender, EventArgs e)
         {
             String line = inputBox.Text;
-            LoopArray=new ArrayList();
+            LoopArray = new ArrayList();
 
             using (StringReader reader = new StringReader(inputBox.Text))
             {
-                while ((line = reader.ReadLine()) !=null)
+                while ((line = reader.ReadLine()) != null)
                 {
                     LoopArray.Add(line);
                 }
-              
+
                 for (int i = 0; i < LoopArray.Count; i++)
                 {
                     line = LoopArray[i].ToString();
-                    commandList = line.Split(' ',',');
+                    commandList = line.Split(' ', ',');
                     loopNum = i;
                     drawShape();
                 }
             }
+
             Refresh();
         }
     }
-    
 }
+
