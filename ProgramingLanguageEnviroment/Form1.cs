@@ -250,6 +250,18 @@ namespace ProgramingLanguageEnviroment
                                     iloop = false;
                                 }
                             }
+                            
+                            if (compVal.Equals(">="))
+                            {
+                                if (opp.Value >= int.Parse(value))
+                                {
+                                    iloop = true;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
 
                             if (compVal.Equals("<"))
                             {
@@ -263,6 +275,18 @@ namespace ProgramingLanguageEnviroment
                                 }
                             }
 
+                            if (compVal.Equals("<="))
+                            {
+                                if (opp.Value <= int.Parse(value))
+                                {
+                                    iloop = true;
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+                            
                         }
                     }
                 }
@@ -611,7 +635,7 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[1].Equals("=")) // used for saving variables
                 {
-                    if (commandList.Length != 5) // checks for incorrect amount of values
+                    if (commandList.Length > 5 || commandList.Length < 3) // checks for incorrect amount of values
                     {
                         MessageBox.Show("Wrong amount of values.\nExample: count = 10 or count = count + 10", "Error",
                             MessageBoxButtons.OK, MessageBoxIcon.Error);

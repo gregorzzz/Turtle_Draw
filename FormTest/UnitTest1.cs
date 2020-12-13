@@ -210,6 +210,39 @@ namespace FormTest
             
             Assert.AreEqual("Factory error: command does not exist", error);
         }
+
+        /// <summary>
+        /// Test to see if endwhile returns true
+        /// </summary>
+        [TestMethod]
+        public void TestEndWhile()
+        {
+            String draw = "endwhile";
+            String[] commandList;
+            commandList = draw.Split(' ');
+            bool iloop = true;
+            if (commandList[0].Equals("endwhile"))
+            {
+                iloop = true;
+            }
+            
+            Assert.IsTrue(iloop);
+        }
+
+        /// <summary>
+        /// Test if while selects the correct value comparator
+        /// </summary>
+        [TestMethod]
+        public void TestWhileLineComparator()
+        {
+            String draw = "while count > 100";
+            String[] commandList;
+            commandList = draw.Split(' ');
+            String LoopComp = commandList[2];
+            String comp = ">";
+            
+            Assert.AreEqual(comp,LoopComp);
+        }
         
     }
 }
