@@ -602,7 +602,14 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[1].Equals("=")) // used for saving variables
                 {
-                    //checks if command value is in dictionary 
+                    if (commandList.Length != 5) // checks for incorrect amount of values
+                    {
+                        MessageBox.Show("Wrong amount of values.\nExample: count = 10 or count = count + 10", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    { 
+                        //checks if command value is in dictionary 
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
                         if (commandList[2].Contains(opp.Key))
@@ -611,14 +618,14 @@ namespace ProgramingLanguageEnviroment
                             commandList[2] = (opp.Value + int.Parse(commandList[4])).ToString();
                         }
                     }
-                    
+
                     // creates and adds variable to dictionary
                     variable = commandList[0];
                     varVal = int.Parse(commandList[2]);
                     Var.setVal(commandList[0], varVal);
                     Var.addVal();
                     Var.printDictionary();
-
+                    }
                 }
 
                 else
