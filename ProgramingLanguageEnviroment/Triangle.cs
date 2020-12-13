@@ -16,7 +16,7 @@ namespace ProgramingLanguageEnviroment
         public Triangle() : base()
         {
         }
-        
+
         /// <summary>
         /// Values on which the shape will be drawn from
         /// </summary>
@@ -24,7 +24,8 @@ namespace ProgramingLanguageEnviroment
         /// <param name="y">one side of triangle</param>
         /// <param name="distance">the length between points x and y</param>
         /// <param name="angle">angle of which to draw triangle at</param>
-        public Triangle (int x, int y, int distance, float angle) : base()
+        /// <param name="colour"></param>
+        public Triangle(Color colour,int x, int y, int distance, float angle) : base(colour)
         {
             this.x = x;
             this.y = y;
@@ -36,9 +37,9 @@ namespace ProgramingLanguageEnviroment
         /// Sets values need to draw a triangle
         /// </summary>
         /// <param name="list">user values which to draw from</param>
-        public override void set(params int[] list)
+        public override void set(Color colour,params int[] list)
         {
-            base.set();
+            base.set(colour);
             this.x = list[0];
             this.y = list[1];
             this.distance = list[2];
@@ -51,7 +52,7 @@ namespace ProgramingLanguageEnviroment
         /// <param name="g">Graphic to be drawn</param>
         public override  void Draw(Graphics g)
         {
-            ShapeFill.fill = false;
+            Pen Pen = new Pen(colour,1);
             
             //calculates triangle points and angle 
             PointF[] pnt = new PointF[3];
@@ -67,7 +68,7 @@ namespace ProgramingLanguageEnviroment
 
             pnt[2].Y = (float)( y + distance * Math.Sin(angle + Math.PI / 3));  
             //draws triangle at points 
-            g.DrawPolygon(PenColor.Pen, pnt);
+            g.DrawPolygon(Pen, pnt);
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))// brush for drawing graphic filled
             

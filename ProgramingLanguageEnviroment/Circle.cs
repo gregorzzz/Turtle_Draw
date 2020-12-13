@@ -9,7 +9,6 @@ namespace ProgramingLanguageEnviroment
    class Circle:Shapes
     {
         int radius;
-        public PenColor colour;
         
 
         public Circle() : base()
@@ -20,7 +19,7 @@ namespace ProgramingLanguageEnviroment
        /// Parameter used for setting the shape size 
        /// </summary>
        /// <param name="radius">size of the circle</param>
-        public Circle (int radius) : base()
+        public Circle (Color colour,int radius) : base(colour)
         {
             this.radius = radius;
         }
@@ -29,9 +28,9 @@ namespace ProgramingLanguageEnviroment
        /// Sets value of which circle will be drawn by 
        /// </summary>
        /// <param name="list">gets the value of radius</param>
-        public override void set(params int[] list)
+        public override void set(Color colour,params int[] list)
         {
-            base.set();
+            base.set(colour);
             this.radius = list[0];
         }
         
@@ -43,9 +42,9 @@ namespace ProgramingLanguageEnviroment
         /// <param name="g">Graphic to be drawn</param>
         public override void Draw(Graphics g)
         {
-            colour = new PenColor();
+            Pen Pen = new Pen(colour,1);
             //draws circle from given points
-            g.DrawEllipse(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
+            g.DrawEllipse(Pen, MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))//brush for drawing filled graphic 
             {

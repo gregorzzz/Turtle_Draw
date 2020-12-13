@@ -120,7 +120,14 @@ namespace ProgramingLanguageEnviroment
                 s = (Shape) shapes[i];
                 if (s != null)
                 {
-                    s.Draw(g);
+                    if (ShapeFill.fill == true)
+                    {
+                        s.Draw(g);
+                    }
+                    else
+                    {
+                        s.Draw(g);
+                    }
                 }
                 
             }
@@ -207,6 +214,7 @@ namespace ProgramingLanguageEnviroment
         /// </summary>
         void drawShape()
         {
+
             if (iloop)
             {
                 if (commandList[0].Equals("if")) // if statement opening command  
@@ -447,7 +455,7 @@ namespace ProgramingLanguageEnviroment
                         }
                         //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("rectangle");
-                        s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        s.set(PenColor.Pen.Color,Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                         shapes.Add(s);
                         
                     }
@@ -473,7 +481,7 @@ namespace ProgramingLanguageEnviroment
                         }
                         //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("square");
-                        s.set(Int32.Parse(commandList[1]));
+                        s.set(PenColor.Pen.Color,Int32.Parse(commandList[1]));
                         shapes.Add(s);
                         
                     }
@@ -497,7 +505,8 @@ namespace ProgramingLanguageEnviroment
                         }
                         //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("circle");
-                        s.set(Int32.Parse(commandList[1]));
+                        s.set(PenColor.Pen.Color,Int32.Parse(commandList[1]));
+
                         shapes.Add(s);
 
                     }
@@ -564,8 +573,8 @@ namespace ProgramingLanguageEnviroment
                         }
                         //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("triangle");
-                        s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
-                            Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
+                        s.set(PenColor.Pen.Color,Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
+                           Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
                         shapes.Add(s);
                         
                     }

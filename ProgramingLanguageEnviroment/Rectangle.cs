@@ -20,7 +20,8 @@ namespace ProgramingLanguageEnviroment
         /// </summary>
         /// <param name="width">width of rectangle to be drawn</param>
         /// <param name="height">height of rectangle to be drawn</param>
-        public Rectangle(int width, int height) : base()
+        /// <param name="colour"></param>
+        public Rectangle(Color colour, int width, int height) : base(colour)
         {
             this.width = width;
             this.height = height;
@@ -30,9 +31,9 @@ namespace ProgramingLanguageEnviroment
         /// Sets the values of width and height
         /// </summary>
         /// <param name="list">values of width and height</param>
-        public override void set(params int[] list)
+        public override void set(Color colour, params int[] list)
         {
-            base.set();
+            base.set(colour);
             this.width = list[0];
             this.height = list[1];
 
@@ -43,9 +44,9 @@ namespace ProgramingLanguageEnviroment
         /// <param name="g">Graphic to be drawn</param>
         public override void Draw(Graphics g)
         {
-            ShapeFill.fill = false; //triggers fill on or off 
+            Pen Pen = new Pen(colour,1);
             // draws rectangle from user defined points 
-            g.DrawRectangle(PenColor.Pen, MoveTo.xPos , MoveTo.yPos,  width, height);
+            g.DrawRectangle(Pen, MoveTo.xPos , MoveTo.yPos,  width, height);
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))// brush for drawing graphic filled
             {

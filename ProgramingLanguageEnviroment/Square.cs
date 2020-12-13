@@ -19,7 +19,8 @@ namespace ProgramingLanguageEnviroment
         /// Value which used to draw shape
         /// </summary>
         /// <param name="size">Width and height of square</param>
-        public Square(int size) : base()
+        /// <param name="colour"></param>
+        public Square(Color colour, int size) : base(colour)
         {
             this.size = size;
         }
@@ -28,9 +29,9 @@ namespace ProgramingLanguageEnviroment
         /// Sets the value of which to use to draw the square
         /// </summary>
         /// <param name="list">given value</param>
-        public override void set(params int[] list)
+        public override void set(Color colour,params int[] list)
         {
-            base.set();
+            base.set(colour);
             this.size = list[0];
 
         }
@@ -40,9 +41,9 @@ namespace ProgramingLanguageEnviroment
         /// <param name="g">Graphic to be drawn</param>
         public override void Draw(Graphics g)
         {
-            ShapeFill.fill = false; //triggers fill on or off 
+            Pen Pen = new Pen(colour,1);
             // draws rectangle from user defined points 
-            g.DrawRectangle(PenColor.Pen, MoveTo.xPos , MoveTo.yPos,  size, size);
+            g.DrawRectangle(Pen, MoveTo.xPos , MoveTo.yPos,  size, size);
             
             using (var brush = new SolidBrush(PenColor.Pen.Color))// brush for drawing graphic filled
             {

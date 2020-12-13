@@ -7,7 +7,7 @@ namespace ProgramingLanguageEnviroment
     /// </summary>
     public interface Shape
     {
-        void set(params int[] list);
+        void set(Color colour, params int[] list);
         void Draw(Graphics g);
 
     }
