@@ -1,9 +1,14 @@
 ﻿using System;
+using System.Drawing;
 
 namespace ProgramingLanguageEnviroment
 {
     public class Factory
     {
+        public Factory(Graphics fromImage)
+        {
+        }
+
         public Shapes getCommand(String shapeType)
         {
             shapeType = shapeType.ToLower().Trim();

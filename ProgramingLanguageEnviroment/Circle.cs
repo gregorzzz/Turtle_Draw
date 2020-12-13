@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace ProgramingLanguageEnviroment
 {
@@ -8,8 +9,9 @@ namespace ProgramingLanguageEnviroment
    class Circle:Shapes
     {
         int radius;
-        public PenColor colour; 
+        public PenColor colour;
         
+
         public Circle() : base()
         {
         }
@@ -27,8 +29,12 @@ namespace ProgramingLanguageEnviroment
         {
             base.set();
             this.radius = list[0];
+
             
+
         }
+        
+        
 
         /// <summary>
         /// Draws a circle of defined size
@@ -36,9 +42,7 @@ namespace ProgramingLanguageEnviroment
         /// <param name="radius">length from center to outside edge </param>
         public override void Draw(Graphics g)
         {
-            ShapeFill.fill = false;
             colour = new PenColor();
-            PenColor.Pen = new Pen(Color.Black, 1);
             //draws circle from given points
             g.DrawEllipse(PenColor.Pen, MoveTo.xPos , MoveTo.yPos, radius + radius, radius + radius);
             

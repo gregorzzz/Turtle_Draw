@@ -8,8 +8,9 @@ namespace ProgramingLanguageEnviroment
     /// </summary>
     public class PenColor
     {
-        public static Pen Pen;
         
+        public static Pen Pen;
+
         /// <summary>
         /// Changes colour of pen
         /// </summary>

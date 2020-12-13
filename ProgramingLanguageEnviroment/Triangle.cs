@@ -49,7 +49,7 @@ namespace ProgramingLanguageEnviroment
         {
             ShapeFill.fill = false;
          
-            PenColor.Pen = new Pen(Color.Black, 1);//default pen
+            //default pen
             //calculates triangle points and angle 
             PointF[] pnt = new PointF[3];
             pnt[0].X = x;

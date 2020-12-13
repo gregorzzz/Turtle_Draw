@@ -50,7 +50,7 @@ namespace ProgramingLanguageEnviroment
         public Form1()
         {
             InitializeComponent();
-            factory = new Factory();
+            factory = new Factory(Graphics.FromImage(OutputBitmap));
             try
             {
                 shapes.Add(factory.getCommand("circle"));
@@ -135,7 +135,6 @@ namespace ProgramingLanguageEnviroment
                 
             }
             
-            
         }
 
         /// <summary>
@@ -145,7 +144,6 @@ namespace ProgramingLanguageEnviroment
         {
             Graphics myGraphics = Graphics.FromImage(OutputBitmap);
             myGraphics.Clear(Color.White);
-
         }
 
         /// <summary>
@@ -475,6 +473,7 @@ namespace ProgramingLanguageEnviroment
                         }
                         //MyCircle.DrawCircle(int.Parse(commandList[1]));
                         s = factory.getCommand("circle");
+                        //s.set(Int32.Parse(commandList[1]));
                         s.set(Int32.Parse(commandList[1]));
                         shapes.Add(s);
 
@@ -618,7 +617,7 @@ namespace ProgramingLanguageEnviroment
 
 
         }
-
+        
         /// <summary>
         /// button to run commands form inputbox
         /// </summary>

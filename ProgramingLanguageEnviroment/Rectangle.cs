@@ -41,7 +41,6 @@ namespace ProgramingLanguageEnviroment
         public override void Draw(Graphics g)
         {
             ShapeFill.fill = false; //triggers fill on or off 
-            PenColor.Pen = new Pen(Color.Black, 1);//default pen
             // draws rectangle from user defined points 
             g.DrawRectangle(PenColor.Pen, MoveTo.xPos , MoveTo.yPos,  width, height);
             
