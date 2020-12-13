@@ -24,12 +24,19 @@
   <component name="ChangeListManager">
     <list default="true" id="06634430-fa12-4fe5-b1a9-e03edcadd16f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProgramingLanguageEnviroment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Shapes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Shapes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Square.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Square.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Triangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Triangle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/bin/Debug/netcoreapp3.1/ProgramingLanguageEnviroment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FormTest/obj/Debug/netcoreapp3.1/FormTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Factory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/Factory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/bin/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramingLanguageEnviroment/obj/Debug/ProgramingLanguageEnviroment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,16 +74,16 @@
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/ShapeFactory.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/DrawTo.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/PenColor.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Shape.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
-        <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Factory.cs" />
-        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Rectangle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Triangle.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Square.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Var.cs" />
         <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Shapes.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Shape.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Circle.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Form1.cs" />
+        <option value="$PROJECT_DIR$/ProgramingLanguageEnviroment/Factory.cs" />
+        <option value="$PROJECT_DIR$/FormTest/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -164,7 +171,7 @@
       <workItem from="1607600544122" duration="16350000" />
       <workItem from="1607683784013" duration="30252000" />
       <workItem from="1607798673291" duration="22101000" />
-      <workItem from="1607855688701" duration="13486000" />
+      <workItem from="1607855688701" duration="15654000" />
     </task>
     <servers />
   </component>
@@ -208,26 +215,26 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1604502892386" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1607863114177">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom" timestamp="1607872861031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607863114177" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1607863114177">
+    <state width="1875" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607872861031" />
+    <state width="1875" height="135" key="GridCell.Tab.0.center" timestamp="1607872861031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607863114177" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1607863114177">
+    <state width="1875" height="135" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607872861031" />
+    <state width="1875" height="135" key="GridCell.Tab.0.left" timestamp="1607872861031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607863114177" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1607863114177">
+    <state width="1875" height="135" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607872861031" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right" timestamp="1607872861031">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1235" height="175" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1603651277320" />
-    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607863114177" />
+    <state width="1875" height="135" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1607872861031" />
     <state width="1875" height="184" key="GridCell.Tab.1.bottom" timestamp="1607822146042">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

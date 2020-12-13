@@ -148,7 +148,7 @@ namespace FormTest
             Assert.AreEqual(val,Var.value);
         }
         /// <summary>
-        /// Test If Statment
+        /// Test If Statement
         /// testing to see if statement will run
         /// by checking if iloop if true 
         /// </summary>
@@ -190,8 +190,26 @@ namespace FormTest
             }
 
         }
-        
-        
 
+        /// <summary>
+        /// Tests an invalid shapeType in factory to see if factory will draw a shape or return an error
+        /// </summary>
+        [TestMethod]
+        public void TestInvalidFactory()
+        {
+            String error = "";
+            Factory f = new Factory();
+            try
+            {
+                Object o = (Object) f.getCommand("invalid");
+            }
+            catch (ArgumentException e)
+            {
+                error = e.Message;
+            }
+            
+            Assert.AreEqual("Factory error: command does not exist", error);
+        }
+        
     }
 }

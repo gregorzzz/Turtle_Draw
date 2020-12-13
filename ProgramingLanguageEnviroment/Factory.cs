@@ -12,6 +12,10 @@ namespace ProgramingLanguageEnviroment
         {
         }
 
+        public Factory()
+        {
+        }
+
         /// <summary>
         /// Commands which use the appropriate classes to draw the shapes
         /// </summary>
@@ -40,7 +44,7 @@ namespace ProgramingLanguageEnviroment
             }
             else
             {
-                ArgumentException argEx = new ArgumentException("Factory error: " +shapeType+ " does not exist");
+                ArgumentException argEx = new ArgumentException("Factory error: command does not exist");
                 throw argEx;
             }
         }
