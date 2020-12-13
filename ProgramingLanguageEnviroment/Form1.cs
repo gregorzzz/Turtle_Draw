@@ -188,7 +188,7 @@ namespace ProgramingLanguageEnviroment
             }
         }
 
-         void Loop()
+        void Loop()
         {
             for (int start = LoopStart; start < LoopEnd; start++)
             {
@@ -574,7 +574,7 @@ namespace ProgramingLanguageEnviroment
                 {
                     LoadFiles();
                 }
-                else if (commandList[1].Equals("="))
+                else if (commandList[1].Equals("=")) // used for saving variables
                 {
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {

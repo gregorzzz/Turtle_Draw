@@ -1,9 +1,10 @@
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using Microsoft.VisualStudio.TestPlatform.CommunicationUtilities;
 using ProgramingLanguageEnviroment;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Rectangle = ProgramingLanguageEnviroment.Rectangle;
+
 
 
 namespace FormTest
@@ -129,15 +130,65 @@ namespace FormTest
         [TestMethod]
         public void TestVar()
         {
-            String draw = "number 10";
+            String draw = "number = 10";
             String[] commandList;
             commandList = draw.Split(' ');
+            String variable;
+            int varVal;
             int val = 10;
-
-            Var._Var(int.Parse(commandList[1]));
+            if (commandList[1].Equals("="))
+            {
+                variable = commandList[0];
+                varVal = int.Parse(commandList[2]);
+                Var.setVal(commandList[0], varVal);
+                Var.addVal();
+                Var.printDictionary();
+            }
             
             Assert.AreEqual(val,Var.value);
         }
         
+        [TestMethod]
+        public void TestIfStatement()
+        {
+            String draw = "if number = 10";
+            String[] commandList;
+            commandList = draw.Split(' ');
+            bool iloop = true;
+            if (iloop)
+            {
+                if (commandList[0].Equals("if"))
+                {
+                    String value = commandList[3];
+                    String compVal = commandList[2];
+                    String varbVal = commandList[1];
+                    foreach (KeyValuePair<string, int> opp in Var.dict)
+                    {
+                        if (opp.Key.Equals(varbVal))
+                        {
+                            if (compVal.Equals("="))
+                            {
+                                if (opp.Value == int.Parse(value))
+                                {
+                                    iloop = true;
+
+                                }
+                                else
+                                {
+                                    iloop = false;
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+                Assert.IsTrue(iloop);
+            }
+
+        }
+        
+        
+
     }
 }
