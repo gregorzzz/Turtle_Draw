@@ -147,7 +147,11 @@ namespace FormTest
             
             Assert.AreEqual(val,Var.value);
         }
-        
+        /// <summary>
+        /// Test If Statment
+        /// testing to see if statement will run
+        /// by checking if iloop if true 
+        /// </summary>
         [TestMethod]
         public void TestIfStatement()
         {
@@ -181,8 +185,7 @@ namespace FormTest
                         }
                     }
                 }
-
-
+                
                 Assert.IsTrue(iloop);
             }
 

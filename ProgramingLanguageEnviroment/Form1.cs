@@ -20,9 +20,6 @@ namespace ProgramingLanguageEnviroment
 
         //bitmap which is draw on and displayed in picturebox 
         Bitmap OutputBitmap = new Bitmap(640, 480);
-        private Circle MyCircle;
-        private Rectangle MyRectangle;
-        private Triangle MyTriangle;
         private Factory factory;
         private DrawTo MyLine;
         private int varVal;
@@ -38,19 +35,16 @@ namespace ProgramingLanguageEnviroment
         private int LoopStart;
         private int LoopEnd;
         private int lineInt;
-        private bool looper = true;
         ArrayList shapes = new ArrayList();
         Shape s;
-
-
-
+        
         //extract user input from textbox
         public String line;
 
         public Form1()
         {
             InitializeComponent();
-            factory = new Factory(Graphics.FromImage(OutputBitmap));
+            factory = new Factory(Graphics.FromImage(OutputBitmap)); //calls on factory when a shape command is triggered
             try
             {
                 shapes.Add(factory.getCommand("circle"));
@@ -63,14 +57,8 @@ namespace ProgramingLanguageEnviroment
                 MessageBox.Show("Invalid shpae: " + e, "Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            // MyCircle = new Circle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of circle 
-            //MyRectangle = new Rectangle(Graphics.FromImage(OutputBitmap)); //class for handling the drawing of rectangle
-            //MyTriangle = new Triangle(Graphics.FromImage(OutputBitmap)); //class for handling the drawing of Triangle 
             MyLine = new DrawTo(
                 Graphics.FromImage(OutputBitmap)); //class for handling the drawing of a line to move the pen 
-
-
         }
 
         /// <summary>
@@ -92,13 +80,14 @@ namespace ProgramingLanguageEnviroment
                 // run command for executing commands in user input text area
                 if (commandList[0].Equals("run") == true)
                 {
+                    // Takes text from input box and splits into lines 
                     using (StringReader reader = new StringReader(inputBox.Text))
                     {
                         while ((line = reader.ReadLine()) != null)
                         {
                             LoopArray.Add(line);
                         }
-
+                        //Loops through each line of the input box
                         loopNum = 0;
                         for (int i = 0; i < LoopArray.Count; i++)
                         {
@@ -107,10 +96,8 @@ namespace ProgramingLanguageEnviroment
                             loopNum = i;
                             drawShape();
                         }
-
                     }
                 }
-
                 drawShape();
                 Refresh();
             }
@@ -126,6 +113,7 @@ namespace ProgramingLanguageEnviroment
             Graphics g = e.Graphics;
             g.DrawImageUnscaled(OutputBitmap, 0, 0);
 
+            // draws shapes from factory
             for (int i = 0; i < shapes.Count; i++)
             {
                 Shape s;
@@ -190,6 +178,9 @@ namespace ProgramingLanguageEnviroment
             }
         }
 
+        /// <summary>
+        /// handles the while loop looping 
+        /// </summary>
         void Loop()
         {
             for (int start = LoopStart; start < LoopEnd; start++)
@@ -199,11 +190,12 @@ namespace ProgramingLanguageEnviroment
                 loopNum = start;
                 drawShape();
             }
-
+            //checks if value is in dictionary 
             foreach (KeyValuePair<string, int> opp in Var.dict)
             {
                 if (opp.Key.Equals(LoopVar))
                 {
+                    //if true then assign the value of the variable
                     LoopVarVal = opp.Value;
                 }
             }
@@ -215,15 +207,14 @@ namespace ProgramingLanguageEnviroment
         /// </summary>
         void drawShape()
         {
-
-
             if (iloop)
             {
-                if (commandList[0].Equals("if"))
+                if (commandList[0].Equals("if")) // if statement opening command  
                 {
                     String value = commandList[3];
                     String compVal = commandList[2];
                     String varbVal = commandList[1];
+                    //checks if variable value is in dictionary 
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
                         if (opp.Key.Equals(varbVal))
@@ -233,7 +224,6 @@ namespace ProgramingLanguageEnviroment
                                 if (opp.Value == int.Parse(value))
                                 {
                                     iloop = true;
-
                                 }
                                 else
                                 {
@@ -268,7 +258,7 @@ namespace ProgramingLanguageEnviroment
                         }
                     }
                 }
-                else if (commandList[0].Equals("endif"))
+                else if (commandList[0].Equals("endif")) // sets end of if block
                 {
                     iloop = true;
                 }
@@ -278,6 +268,7 @@ namespace ProgramingLanguageEnviroment
                     LoopComp = commandList[2];
                     LoopVar = commandList[1];
 
+                    //checks if variable value is in dictionary 
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
                         if (opp.Key.Equals(LoopVar))
@@ -352,8 +343,9 @@ namespace ProgramingLanguageEnviroment
                     }
 
                 }
-                else if (commandList[0].Equals("endwhile"))
+                else if (commandList[0].Equals("endwhile")) // end of block for while loop
                 {
+                    //checks if variable value is in dictionary 
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
                         if (opp.Key.Equals(LoopVar))
@@ -413,6 +405,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
+                        //checks if command value is in dictionary 
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
                             if (commandList[1].Contains(opp.Key))
@@ -439,6 +432,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
+                        //checks if command value is in dictionary 
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
                             if (commandList[1].Contains(opp.Key))
@@ -451,13 +445,14 @@ namespace ProgramingLanguageEnviroment
                                 commandList[2] = opp.Value.ToString();
                             }
                         }
+                        //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("rectangle");
                         s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
                         shapes.Add(s);
                         
                     }
                 }
-                else if (commandList[0].Equals("square") == true) // rectangle command 
+                else if (commandList[0].Equals("square") == true) // square command 
                 {
                     if (commandList.Length != 2) // checks for incorrect amount of values
                     {
@@ -466,14 +461,17 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
-                        foreach (KeyValuePair<string, int> opp in Var.dict)
+                        //checks if command value is in dictionary 
+                        foreach (KeyValuePair<string, int> opp in Var.dict) 
                         {
                             if (commandList[1].Contains(opp.Key))
                             {
+                                //sets command value to value of key from dictionary
                                 commandList[1] = opp.Value.ToString();
                             }
                             
                         }
+                        //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("square");
                         s.set(Int32.Parse(commandList[1]));
                         shapes.Add(s);
@@ -489,6 +487,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
+                        //checks if command value is in dictionary 
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
                             if (commandList.Contains(opp.Key))
@@ -496,9 +495,8 @@ namespace ProgramingLanguageEnviroment
                                 commandList[1] = opp.Value.ToString();
                             }
                         }
-                        //MyCircle.DrawCircle(int.Parse(commandList[1]));
+                        //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("circle");
-                        //s.set(Int32.Parse(commandList[1]));
                         s.set(Int32.Parse(commandList[1]));
                         shapes.Add(s);
 
@@ -513,6 +511,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
+                        //checks if command value is in dictionary 
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
                             if (commandList[1].Contains(opp.Key))
@@ -539,6 +538,7 @@ namespace ProgramingLanguageEnviroment
                     }
                     else
                     {
+                        //checks if command value is in dictionary 
                         foreach (KeyValuePair<string, int> opp in Var.dict)
                         {
                             if (commandList[1].Contains(opp.Key))
@@ -562,6 +562,7 @@ namespace ProgramingLanguageEnviroment
                             }
 
                         }
+                        //gets appropriate command from factory and pass values to the commands class
                         s = factory.getCommand("triangle");
                         s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]),
                             Int32.Parse(commandList[3]), Int32.Parse(commandList[4]));
@@ -601,14 +602,17 @@ namespace ProgramingLanguageEnviroment
                 }
                 else if (commandList[1].Equals("=")) // used for saving variables
                 {
+                    //checks if command value is in dictionary 
                     foreach (KeyValuePair<string, int> opp in Var.dict)
                     {
                         if (commandList[2].Contains(opp.Key))
                         {
+                            // add value to existing value in dictionary
                             commandList[2] = (opp.Value + int.Parse(commandList[4])).ToString();
                         }
                     }
-
+                    
+                    // creates and adds variable to dictionary
                     variable = commandList[0];
                     varVal = int.Parse(commandList[2]);
                     Var.setVal(commandList[0], varVal);
@@ -626,7 +630,7 @@ namespace ProgramingLanguageEnviroment
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else
+            else // end point for both if and while loop
             {
                 if (commandList[0].Equals("endif"))
                 {

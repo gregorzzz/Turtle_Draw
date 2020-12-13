@@ -4,7 +4,7 @@ using System.Drawing;
 namespace ProgramingLanguageEnviroment
 {
     /// <summary>
-    /// Circle class holds information that is displayed on the form when command is triggered
+    /// Circle class holds information that is displayed on the form when command is triggered by factory
     /// </summary>
    class Circle:Shapes
     {
@@ -16,30 +16,31 @@ namespace ProgramingLanguageEnviroment
         {
         }
         
-        /// <summary>
-        /// Constructor initialises Triangle to Pen or ShapeFill 
-        /// </summary>
-        /// <param name="g">Graphics place to draw on</param>
+       /// <summary>
+       /// Parameter used for setting the shape size 
+       /// </summary>
+       /// <param name="radius">size of the circle</param>
         public Circle (int radius) : base()
         {
             this.radius = radius;
         }
         
+       /// <summary>
+       /// Sets value of which circle will be drawn by 
+       /// </summary>
+       /// <param name="list">gets the value of radius</param>
         public override void set(params int[] list)
         {
             base.set();
             this.radius = list[0];
-
-            
-
         }
         
         
 
         /// <summary>
-        /// Draws a circle of defined size
+        /// Draws circle of give size 
         /// </summary>
-        /// <param name="radius">length from center to outside edge </param>
+        /// <param name="g">Graphic to be drawn</param>
         public override void Draw(Graphics g)
         {
             colour = new PenColor();

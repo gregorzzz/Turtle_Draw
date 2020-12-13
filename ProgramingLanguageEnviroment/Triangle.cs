@@ -4,7 +4,7 @@ using System.Drawing;
 namespace ProgramingLanguageEnviroment
 {
     /// <summary>
-    /// Triangle class holds information that is displayed on the form when command is triggered
+    /// Triangle class holds information that is displayed on the form when command is triggered by the factory
     /// </summary>
     public class Triangle:Shapes
     {
@@ -18,9 +18,12 @@ namespace ProgramingLanguageEnviroment
         }
         
         /// <summary>
-        /// Constructor initialises Triangle to Pen or ShapeFill 
+        /// Values on which the shape will be drawn from
         /// </summary>
-        /// <param name="g">Graphics place to draw on</param>
+        /// <param name="x">one side of triangle</param>
+        /// <param name="y">one side of triangle</param>
+        /// <param name="distance">the length between points x and y</param>
+        /// <param name="angle">angle of which to draw triangle at</param>
         public Triangle (int x, int y, int distance, float angle) : base()
         {
             this.x = x;
@@ -29,6 +32,10 @@ namespace ProgramingLanguageEnviroment
             this.angle = angle;
         }
 
+        /// <summary>
+        /// Sets values need to draw a triangle
+        /// </summary>
+        /// <param name="list">user values which to draw from</param>
         public override void set(params int[] list)
         {
             base.set();
@@ -39,17 +46,13 @@ namespace ProgramingLanguageEnviroment
         }
         
         /// <summary>
-        /// draws a triangle from user input 
+        /// Draws triangle graphic
         /// </summary>
-        /// <param name="x">one side of triangle </param>
-        /// <param name="y">one side of triangle</param>
-        /// <param name="distance">the length between points x and y</param>
-        /// <param name="angle">angle of which to draw triangle at</param>
+        /// <param name="g">Graphic to be drawn</param>
         public override  void Draw(Graphics g)
         {
             ShapeFill.fill = false;
-         
-            //default pen
+            
             //calculates triangle points and angle 
             PointF[] pnt = new PointF[3];
             pnt[0].X = x;

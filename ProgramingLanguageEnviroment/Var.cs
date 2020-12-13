@@ -6,27 +6,36 @@ using System.Windows.Forms;
 namespace ProgramingLanguageEnviroment
 {
     /// <summary>
-    /// Var class for variables
-    /// Needs to be implemented
+    /// Stores user defined variables in dictionary
     /// </summary>
     public class Var
     {
         public Form1 formm;
+        //dictionary used for storing variables
         public static Dictionary<string, int> dict = new Dictionary<string, int>();
 
         public static String comm;
         public static int value;
         
-        public static void setVal(String c, int v)
+        /// <summary>
+        /// Sets the variable name and value to be added
+        /// </summary>
+        /// <param name="var">Variable name</param>
+        /// <param name="val">Variable value</param>
+        public static void setVal(String var, int val)
         {
-            comm = c;
-            value = v;
+            comm = var;
+            value = val;
             
 
         }
         
+        /// <summary>
+        /// Adds variable to dictionary
+        /// </summary>
         public static void addVal()
         {
+            // if variable exists replace with new defection 
             bool exists = dict.ContainsKey(comm);
             if (exists)
             {
