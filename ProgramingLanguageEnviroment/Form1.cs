@@ -56,10 +56,12 @@ namespace ProgramingLanguageEnviroment
                 shapes.Add(factory.getCommand("circle"));
                 shapes.Add(factory.getCommand("rectangle"));
                 shapes.Add(factory.getCommand("triangle"));
+                shapes.Add(factory.getCommand("square"));
             }
             catch (ArgumentException e)
             {
-
+                MessageBox.Show("Invalid shpae: " + e, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             // MyCircle = new Circle(Graphics.FromImage(OutputBitmap));//class for handling the drawing of circle 
@@ -451,6 +453,29 @@ namespace ProgramingLanguageEnviroment
                         }
                         s = factory.getCommand("rectangle");
                         s.set(Int32.Parse(commandList[1]), Int32.Parse(commandList[2]));
+                        shapes.Add(s);
+                        
+                    }
+                }
+                else if (commandList[0].Equals("square") == true) // rectangle command 
+                {
+                    if (commandList.Length != 2) // checks for incorrect amount of values
+                    {
+                        MessageBox.Show("Wrong amount of values.\nExample: square 50", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        foreach (KeyValuePair<string, int> opp in Var.dict)
+                        {
+                            if (commandList[1].Contains(opp.Key))
+                            {
+                                commandList[1] = opp.Value.ToString();
+                            }
+                            
+                        }
+                        s = factory.getCommand("square");
+                        s.set(Int32.Parse(commandList[1]));
                         shapes.Add(s);
                         
                     }

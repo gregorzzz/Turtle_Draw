@@ -51,6 +51,7 @@
         <e p="Shape.cs" t="Include" />
         <e p="ShapeFill.cs" t="Include" />
         <e p="Shapes.cs" t="Include" />
+        <e p="Square.cs" t="Include" />
         <e p="Triangle.cs" t="Include" />
         <e p="Var.cs" t="Include" />
       </e>

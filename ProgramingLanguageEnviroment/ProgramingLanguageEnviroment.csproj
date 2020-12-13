@@ -64,6 +64,7 @@
         <Compile Include="Shape.cs" />
         <Compile Include="ShapeFill.cs" />
         <Compile Include="Shapes.cs" />
+        <Compile Include="Square.cs" />
         <Compile Include="Triangle.cs" />
         <Compile Include="Var.cs" />
         <EmbeddedResource Include="Form1.resx">

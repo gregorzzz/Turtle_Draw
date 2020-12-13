@@ -25,6 +25,10 @@ namespace ProgramingLanguageEnviroment
             {
                 return new Triangle();
             }
+            else if (shapeType.Equals("square"))
+            {
+                return new Square();
+            }
             else
             {
                 ArgumentException argEx = new ArgumentException("Factory error: " +shapeType+ " does not exist");
